@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="volume_extension.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\COM\ApplicationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\COM\CBaseEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Events\COM\DocumentFrameEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="utilits.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="volume_extension.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\COM\ApplicationEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\COM\CBaseEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Events\COM\DocumentFrameEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="utilits.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\volume_extension.bmp">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="volume_extension.def">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{766d7149-cccf-4509-ab5a-b3c4169894aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{ef6caf45-5ace-4504-810e-1fa54acb20a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{53ac081a-e0d0-4858-9331-3149b18e85f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{b4a87bc3-afe5-4c84-8e7a-e0ac5e7a8a60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="volume_extension.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

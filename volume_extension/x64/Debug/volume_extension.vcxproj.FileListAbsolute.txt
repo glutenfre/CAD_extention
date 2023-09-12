@@ -1,0 +1,1 @@
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\x64\Debug\volume_extension.vcxproj.AssemblyReference.cache

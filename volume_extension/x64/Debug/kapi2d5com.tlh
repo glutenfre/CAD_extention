@@ -1,0 +1,828 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.29.30148.0 (9694d472).
+//
+// C:\Users\Ivan\source\repos\volume_extension\volume_extension\x64\Debug\kapi2d5com.tlh
+//
+// C++ source equivalent of Win32 type library kAPI2D5COM.tlb
+// compiler-generated file created 05/12/23 at 00:45:47 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("0f4ab6c5-1420-4848-afce-18cbe701be1a"))
+/* LIBID */ __Kompas6API2D5COM;
+struct __declspec(uuid("c89a8c15-2de0-408b-8c89-b1cf4eae1263"))
+/* interface */ IKompasNotify;
+struct __declspec(uuid("ebf88cae-07d4-4fd3-8069-a0ef15f56672"))
+/* interface */ IKompasObjectNotify;
+struct __declspec(uuid("0c11e121-22c4-40fb-9559-becb12269dcb"))
+/* interface */ IDocumentFileNotify;
+struct __declspec(uuid("704fbfc9-7edd-42d0-bdb5-c242d06c18f9"))
+/* interface */ IStampNotify;
+struct __declspec(uuid("1f02922e-eaf8-4462-aafb-47273782fd31"))
+/* interface */ IObject2DNotify;
+struct __declspec(uuid("b17ba3c2-9697-493b-baa5-1712f349ee53"))
+/* interface */ IObject2DNotifyResult;
+struct __declspec(uuid("baf64b25-b405-478d-8019-65102e45e2d5"))
+/* interface */ ISelectionMngNotify;
+struct __declspec(uuid("926b6f36-0bab-44c3-8cb8-2f89de9ddced"))
+/* interface */ ISpcObjectNotify;
+struct __declspec(uuid("05586fab-fb5c-4e15-b7c0-6639106a005d"))
+/* interface */ ISpcDocumentNotify;
+struct __declspec(uuid("46d9f0ca-c094-41c8-b851-f86cf565481e"))
+/* interface */ ISpecificationNotify;
+struct __declspec(uuid("3a1d1701-ba12-4d88-9c29-7c0faf7a2800"))
+/* interface */ IDocument2DNotify;
+struct __declspec(uuid("9ab42e3b-7437-407e-960a-4f509812ab11"))
+/* interface */ IPropertyManagerNotify;
+struct __declspec(uuid("a715a2f6-3210-4890-9eb4-327a06f90eb6"))
+/* interface */ IDocumentFrameNotify;
+struct __declspec(uuid("341d4571-16f4-4928-903e-6906e56dacd1"))
+/* interface */ IViewsAndLayersManagerNotify;
+struct __declspec(uuid("30265782-7631-4957-af51-458caa9a76ec"))
+/* interface */ ILibraryManagerNotify;
+struct __declspec(uuid("225dde9a-a442-4cd5-8428-87612bc0677a"))
+/* interface */ IProcess2DNotify;
+struct __declspec(uuid("abba6ce0-cb4c-4a32-98b4-b639352c75cc"))
+/* interface */ IParametrizationParam;
+struct __declspec(uuid("90570c5f-3837-40d8-b9e4-563c166a4fd0"))
+/* interface */ ISnapInfo;
+struct __declspec(uuid("7c790de5-bd3e-4f34-bf7a-7fa7250a87c0"))
+/* interface */ ISaveToPreviusParam;
+struct __declspec(uuid("7aa0e540-0318-11d4-a30e-00c026ee094f"))
+/* interface */ IRasterFormatParam;
+struct __declspec(uuid("c78ae949-84f6-4291-83e5-6aebf90d2e09"))
+/* interface */ IMouseEnterLeaveParameters;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IKompasNotify, __uuidof(IKompasNotify));
+_COM_SMARTPTR_TYPEDEF(IKompasObjectNotify, __uuidof(IKompasObjectNotify));
+_COM_SMARTPTR_TYPEDEF(IDocumentFileNotify, __uuidof(IDocumentFileNotify));
+_COM_SMARTPTR_TYPEDEF(IStampNotify, __uuidof(IStampNotify));
+_COM_SMARTPTR_TYPEDEF(IObject2DNotify, __uuidof(IObject2DNotify));
+_COM_SMARTPTR_TYPEDEF(IObject2DNotifyResult, __uuidof(IObject2DNotifyResult));
+_COM_SMARTPTR_TYPEDEF(ISelectionMngNotify, __uuidof(ISelectionMngNotify));
+_COM_SMARTPTR_TYPEDEF(ISpcObjectNotify, __uuidof(ISpcObjectNotify));
+_COM_SMARTPTR_TYPEDEF(ISpcDocumentNotify, __uuidof(ISpcDocumentNotify));
+_COM_SMARTPTR_TYPEDEF(ISpecificationNotify, __uuidof(ISpecificationNotify));
+_COM_SMARTPTR_TYPEDEF(IDocument2DNotify, __uuidof(IDocument2DNotify));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerNotify, __uuidof(IPropertyManagerNotify));
+_COM_SMARTPTR_TYPEDEF(IDocumentFrameNotify, __uuidof(IDocumentFrameNotify));
+_COM_SMARTPTR_TYPEDEF(IViewsAndLayersManagerNotify, __uuidof(IViewsAndLayersManagerNotify));
+_COM_SMARTPTR_TYPEDEF(ILibraryManagerNotify, __uuidof(ILibraryManagerNotify));
+_COM_SMARTPTR_TYPEDEF(IProcess2DNotify, __uuidof(IProcess2DNotify));
+_COM_SMARTPTR_TYPEDEF(IParametrizationParam, __uuidof(IParametrizationParam));
+_COM_SMARTPTR_TYPEDEF(ISnapInfo, __uuidof(ISnapInfo));
+_COM_SMARTPTR_TYPEDEF(ISaveToPreviusParam, __uuidof(ISaveToPreviusParam));
+_COM_SMARTPTR_TYPEDEF(IRasterFormatParam, __uuidof(IRasterFormatParam));
+_COM_SMARTPTR_TYPEDEF(IMouseEnterLeaveParameters, __uuidof(IMouseEnterLeaveParameters));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("c89a8c15-2de0-408b-8c89-b1cf4eae1263"))
+IKompasNotify : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall IsNotifyProcess (
+        int notifyType ) = 0;
+};
+
+struct __declspec(uuid("ebf88cae-07d4-4fd3-8069-a0ef15f56672"))
+IKompasObjectNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall CreateDocument (
+        long pDoc,
+        int docType ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginOpenDocument (
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall OpenDocument (
+        long pDoc,
+        int docType ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeActiveDocument (
+        long pDoc,
+        int docType ) = 0;
+      virtual VARIANT_BOOL __stdcall ApplicationDestroy ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginCreate (
+        long docType ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginOpenFile ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginCloseAllDocument ( ) = 0;
+      virtual VARIANT_BOOL __stdcall KeyDown (
+        /*[in,out]*/ long * key,
+        /*[in]*/ long flags,
+        /*[in]*/ VARIANT_BOOL sysKey ) = 0;
+      virtual VARIANT_BOOL __stdcall KeyUp (
+        /*[in,out]*/ long * key,
+        /*[in]*/ long flags,
+        /*[in]*/ VARIANT_BOOL sysKey ) = 0;
+      virtual VARIANT_BOOL __stdcall KeyPress (
+        /*[in,out]*/ long * key,
+        /*[in]*/ VARIANT_BOOL sysKey ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginRequestFiles (
+        /*[in]*/ long requestID,
+        /*[in,out]*/ VARIANT * files ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginChoiceMaterial (
+        long MaterialPropertyId ) = 0;
+      virtual VARIANT_BOOL __stdcall ChoiceMaterial (
+        long MaterialPropertyId,
+        LPSTR material,
+        double density ) = 0;
+      virtual VARIANT_BOOL __stdcall IsNeedConvertToSavePrevious (
+        /*[in]*/ long pDoc,
+        /*[in]*/ int docType,
+        /*[in]*/ long saveVersion,
+        /*[in]*/ IUnknown * saveToPreviusParam,
+        /*[in,out]*/ VARIANT_BOOL * needConvert ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginConvertToSavePrevious (
+        long pDoc,
+        int docType,
+        long saveVersion,
+        IUnknown * saveToPreviusParam ) = 0;
+      virtual VARIANT_BOOL __stdcall EndConvertToSavePrevious (
+        long pDoc,
+        int docType,
+        long saveVersion,
+        IUnknown * saveToPreviusParam ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeTheme (
+        long newTheme ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginDragOpenFiles (
+        /*[in,out]*/ VARIANT * filesList,
+        /*[in]*/ VARIANT_BOOL insert,
+        /*[in,out]*/ VARIANT_BOOL * filesListChanged ) = 0;
+};
+
+struct __declspec(uuid("0c11e121-22c4-40fb-9559-becb12269dcb"))
+IDocumentFileNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginCloseDocument ( ) = 0;
+      virtual VARIANT_BOOL __stdcall CloseDocument ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginSaveDocument (
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall SaveDocument ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Activate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Deactivate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginSaveAsDocument ( ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentFrameOpen (
+        IUnknown * v ) = 0;
+      virtual VARIANT_BOOL __stdcall ProcessActivate (
+        long Id ) = 0;
+      virtual VARIANT_BOOL __stdcall ProcessDeactivate (
+        long Id ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginProcess (
+        long Id ) = 0;
+      virtual VARIANT_BOOL __stdcall EndProcess (
+        long Id,
+        VARIANT_BOOL Success ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginAutoSaveDocument (
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall AutoSaveDocument ( ) = 0;
+};
+
+struct __declspec(uuid("704fbfc9-7edd-42d0-bdb5-c242d06c18f9"))
+IStampNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginEditStamp ( ) = 0;
+      virtual VARIANT_BOOL __stdcall EndEditStamp (
+        VARIANT_BOOL editResult ) = 0;
+      virtual VARIANT_BOOL __stdcall StampCellDblClick (
+        long number ) = 0;
+      virtual VARIANT_BOOL __stdcall StampCellBeginEdit (
+        long number ) = 0;
+      virtual VARIANT_BOOL __stdcall StampBeginClearCells (
+        VARIANT numbers ) = 0;
+};
+
+struct __declspec(uuid("1f02922e-eaf8-4462-aafb-47273782fd31"))
+IObject2DNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall ChangeActive (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginDelete (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Delete (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginMove (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Move (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginRotate (
+        long obgRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Rotate (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginScale (
+        long obgRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Scale (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginTransform (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Transform (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginCopy (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Copy (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginSymmetry (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Symmetry (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginProcess (
+        long pType,
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall EndProcess (
+        long pType ) = 0;
+      virtual VARIANT_BOOL __stdcall CreateObject (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall UpdateObject (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginDestroyObject (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall DestroyObject (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginPropertyChanged (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall PropertyChanged (
+        long objRef ) = 0;
+};
+
+struct __declspec(uuid("b17ba3c2-9697-493b-baa5-1712f349ee53"))
+IObject2DNotifyResult : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual long __stdcall GetNotifyType ( ) = 0;
+      virtual VARIANT_BOOL __stdcall IsCopy ( ) = 0;
+      virtual VARIANT_BOOL __stdcall GetSheetPoint (
+        /*[in]*/ VARIANT_BOOL from,
+        /*[out]*/ double * x,
+        /*[out]*/ double * y ) = 0;
+      virtual long __stdcall GetCopyObject ( ) = 0;
+      virtual double __stdcall GetAngle ( ) = 0;
+      virtual VARIANT_BOOL __stdcall GetScale (
+        /*[out]*/ double * sx,
+        /*[out]*/ double * sy ) = 0;
+      virtual long __stdcall GetProcessType ( ) = 0;
+      virtual VARIANT_BOOL __stdcall IsUndoMode ( ) = 0;
+      virtual VARIANT_BOOL __stdcall IsRedoMode ( ) = 0;
+};
+
+struct __declspec(uuid("baf64b25-b405-478d-8019-65102e45e2d5"))
+ISelectionMngNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall Select (
+        VARIANT obj ) = 0;
+      virtual VARIANT_BOOL __stdcall Unselect (
+        VARIANT obj ) = 0;
+      virtual VARIANT_BOOL __stdcall UnselectAll ( ) = 0;
+};
+
+struct __declspec(uuid("926b6f36-0bab-44c3-8cb8-2f89de9ddced"))
+ISpcObjectNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginDelete (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Delete (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall CellDblClick (
+        long objRef,
+        long number ) = 0;
+      virtual VARIANT_BOOL __stdcall CellBeginEdit (
+        long objRef,
+        long number ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeCurrent (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentBeginAdd (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentAdd (
+        long objRef,
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentRemove (
+        long objRef,
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginGeomChange (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall GeomChange (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginProcess (
+        long pType,
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall EndProcess (
+        long pType ) = 0;
+      virtual VARIANT_BOOL __stdcall CreateObject (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall UpdateObject (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginCopy (
+        long objRef ) = 0;
+      virtual VARIANT_BOOL __stdcall Copy (
+        long objRef ) = 0;
+};
+
+struct __declspec(uuid("05586fab-fb5c-4e15-b7c0-6639106a005d"))
+ISpcDocumentNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall DocumentBeginAdd ( ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentAdd (
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentBeginRemove (
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall DocumentRemove (
+        LPSTR docName ) = 0;
+      virtual VARIANT_BOOL __stdcall SpcStyleBeginChange (
+        LPSTR libName,
+        long numb ) = 0;
+      virtual VARIANT_BOOL __stdcall SpcStyleChange (
+        LPSTR libName,
+        long numb ) = 0;
+};
+
+struct __declspec(uuid("46d9f0ca-c094-41c8-b851-f86cf565481e"))
+ISpecificationNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall TuningSpcStyleBeginChange (
+        LPSTR libName,
+        long numb ) = 0;
+      virtual VARIANT_BOOL __stdcall TuningSpcStyleChange (
+        LPSTR libName,
+        long numb,
+        VARIANT_BOOL isOk ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeCurrentSpcDescription (
+        LPSTR libName,
+        long numb ) = 0;
+      virtual VARIANT_BOOL __stdcall SpcDescriptionAdd (
+        LPSTR libName,
+        long numb ) = 0;
+      virtual VARIANT_BOOL __stdcall SpcDescriptionRemove (
+        LPSTR libName,
+        long numb ) = 0;
+      virtual VARIANT_BOOL __stdcall SpcDescriptionBeginEdit (
+        LPSTR libName,
+        long numb ) = 0;
+      virtual VARIANT_BOOL __stdcall SpcDescriptionEdit (
+        LPSTR libName,
+        long numb,
+        VARIANT_BOOL isOk ) = 0;
+      virtual VARIANT_BOOL __stdcall SynchronizationBegin ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Synchronization ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginCalcPositions ( ) = 0;
+      virtual VARIANT_BOOL __stdcall CalcPositions ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginCreateObject (
+        long typeObj ) = 0;
+};
+
+struct __declspec(uuid("3a1d1701-ba12-4d88-9c29-7c0faf7a2800"))
+IDocument2DNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginRebuild ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Rebuild ( ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginChoiceMaterial ( ) = 0;
+      virtual VARIANT_BOOL __stdcall ChoiceMaterial (
+        LPSTR material,
+        double density ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginInsertFragment ( ) = 0;
+      virtual VARIANT_BOOL __stdcall LocalFragmentEdit (
+        long pDoc,
+        VARIANT_BOOL newFrw ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginChoiceProperty (
+        long objRef,
+        double propID ) = 0;
+      virtual VARIANT_BOOL __stdcall ChoiceProperty (
+        long objRef,
+        double propID ) = 0;
+};
+
+struct __declspec(uuid("9ab42e3b-7437-407e-960a-4f509812ab11"))
+IPropertyManagerNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall ButtonClick (
+        long buttonID ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeControlValue (
+        IUnknown * ctrl ) = 0;
+      virtual VARIANT_BOOL __stdcall ControlCommand (
+        IUnknown * ctrl,
+        long buttonID ) = 0;
+      virtual VARIANT_BOOL __stdcall ButtonUpdate (
+        /*[in]*/ long buttonID,
+        /*[in,out]*/ long * check,
+        /*[in,out]*/ VARIANT_BOOL * _enable ) = 0;
+      virtual VARIANT_BOOL __stdcall ProcessActivate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall ProcessDeactivate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall CommandHelp (
+        long Id ) = 0;
+      virtual VARIANT_BOOL __stdcall SelectItem (
+        IUnknown * Control,
+        long Index,
+        VARIANT_BOOL Select ) = 0;
+      virtual VARIANT_BOOL __stdcall CheckItem (
+        IUnknown * Control,
+        long Index,
+        VARIANT_BOOL check ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeActiveTab (
+        long TabIndex ) = 0;
+      virtual VARIANT_BOOL __stdcall EditFocus (
+        IUnknown * ctrl,
+        VARIANT_BOOL Set ) = 0;
+      virtual VARIANT_BOOL __stdcall UserMenuCommand (
+        IUnknown * ctrl,
+        long menuID ) = 0;
+      virtual VARIANT_BOOL __stdcall LayoutChanged ( ) = 0;
+      virtual VARIANT_BOOL __stdcall GetContextMenuType (
+        /*[in]*/ long LX,
+        /*[in]*/ long LY,
+        /*[in,out]*/ long * ContextMenuType ) = 0;
+      virtual VARIANT_BOOL __stdcall FillContextPanel (
+        IUnknown * ContextPanel ) = 0;
+      virtual VARIANT_BOOL __stdcall FillContextIconMenu (
+        IUnknown * menu ) = 0;
+      virtual VARIANT_BOOL __stdcall EndEditItem (
+        IUnknown * ctrl,
+        long Index ) = 0;
+      virtual VARIANT_BOOL __stdcall ChangeTabExpanded (
+        long TabIndex ) = 0;
+      virtual VARIANT_BOOL __stdcall DoubleClickItem (
+        IUnknown * Control,
+        long Index ) = 0;
+};
+
+struct __declspec(uuid("a715a2f6-3210-4890-9eb4-327a06f90eb6"))
+IDocumentFrameNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginPaint (
+        IUnknown * paintObj ) = 0;
+      virtual VARIANT_BOOL __stdcall ClosePaint (
+        IUnknown * paintObj ) = 0;
+      virtual VARIANT_BOOL __stdcall MouseDown (
+        short nButton,
+        short nShiftState,
+        long x,
+        long y ) = 0;
+      virtual VARIANT_BOOL __stdcall MouseUp (
+        short nButton,
+        short nShiftState,
+        long x,
+        long y ) = 0;
+      virtual VARIANT_BOOL __stdcall MouseDblClick (
+        short nButton,
+        short nShiftState,
+        long x,
+        long y ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginPaintGL (
+        long drawMode ) = 0;
+      virtual VARIANT_BOOL __stdcall ClosePaintGL (
+        long drawMode ) = 0;
+      virtual VARIANT_BOOL __stdcall AddGabarit (
+        IUnknown * gabObj ) = 0;
+      virtual VARIANT_BOOL __stdcall Activate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Deactivate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall CloseFrame ( ) = 0;
+      virtual VARIANT_BOOL __stdcall MouseMove (
+        short nShiftState,
+        long x,
+        long y ) = 0;
+      virtual VARIANT_BOOL __stdcall ShowOcxTree (
+        IUnknown * tree,
+        VARIANT_BOOL show ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginPaintTmpObjects ( ) = 0;
+      virtual VARIANT_BOOL __stdcall ClosePaintTmpObjects ( ) = 0;
+};
+
+struct __declspec(uuid("341d4571-16f4-4928-903e-6906e56dacd1"))
+IViewsAndLayersManagerNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginEdit ( ) = 0;
+      virtual VARIANT_BOOL __stdcall EndEdit (
+        VARIANT_BOOL isOk ) = 0;
+};
+
+struct __declspec(uuid("30265782-7631-4957-af51-458caa9a76ec"))
+ILibraryManagerNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall BeginAttach (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall Attach (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginDetach (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall Detach (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginExecute (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall EndExecute (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall SystemControlStop (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall SystemControlStart (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall AddLibraryDescription (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall DeleteLibraryDescription (
+        IUnknown * PLibrary ) = 0;
+      virtual VARIANT_BOOL __stdcall AddInsert (
+        IUnknown * PInsert,
+        VARIANT_BOOL create ) = 0;
+      virtual VARIANT_BOOL __stdcall DeleteInsert (
+        IUnknown * PInsert ) = 0;
+      virtual VARIANT_BOOL __stdcall EditInsert (
+        IUnknown * PLibrary,
+        long pDoc,
+        VARIANT_BOOL newFrw ) = 0;
+      virtual VARIANT_BOOL __stdcall TryExecute (
+        IUnknown * PLibrary,
+        long commandId ) = 0;
+      virtual VARIANT_BOOL __stdcall BeginInsertDocument (
+        IUnknown * PLibrary,
+        long InsertionType,
+        BSTR Insertion ) = 0;
+};
+
+struct __declspec(uuid("225dde9a-a442-4cd5-8428-87612bc0677a"))
+IProcess2DNotify : IKompasNotify
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall PlacementChange (
+        double x,
+        double y,
+        double angle,
+        VARIANT_BOOL dynamic ) = 0;
+      virtual VARIANT_BOOL __stdcall ExecuteCommand (
+        long command ) = 0;
+      virtual VARIANT_BOOL __stdcall Run ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Stop ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Activate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall Deactivate ( ) = 0;
+      virtual VARIANT_BOOL __stdcall EndProcess ( ) = 0;
+      virtual VARIANT_BOOL __stdcall GetMouseEnterLeavePoint (
+        IUnknown * Control,
+        long btnID,
+        long pointIndex,
+        IUnknown * parameters ) = 0;
+      virtual VARIANT_BOOL __stdcall AbortProcess ( ) = 0;
+};
+
+struct __declspec(uuid("abba6ce0-cb4c-4a32-98b4-b639352c75cc"))
+IParametrizationParam : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall GetNearestPoints ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetNearestPoints (
+        VARIANT_BOOL value ) = 0;
+      virtual double __stdcall GetPointsLimit ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetPointsLimit (
+        double value ) = 0;
+      virtual VARIANT_BOOL __stdcall GetHorizontal ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetHorizontal (
+        VARIANT_BOOL value ) = 0;
+      virtual VARIANT_BOOL __stdcall GetVertical ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetVertical (
+        VARIANT_BOOL value ) = 0;
+      virtual VARIANT_BOOL __stdcall GetParallel ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetParallel (
+        VARIANT_BOOL value ) = 0;
+      virtual VARIANT_BOOL __stdcall GetPerpendicular ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetPerpendicular (
+        VARIANT_BOOL value ) = 0;
+      virtual double __stdcall GetAngleLimit ( ) = 0;
+      virtual VARIANT_BOOL __stdcall SetAngleLimit (
+        double value ) = 0;
+      virtual VARIANT_BOOL __stdcall Init ( ) = 0;
+};
+
+struct __declspec(uuid("90570c5f-3837-40d8-b9e4-563c166a4fd0"))
+ISnapInfo : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual long __stdcall GetSnapType1 ( ) = 0;
+      virtual long __stdcall GetObject1 ( ) = 0;
+      virtual long __stdcall GetSnapType2 ( ) = 0;
+      virtual long __stdcall GetObject2 ( ) = 0;
+      virtual VARIANT_BOOL __stdcall GetPoint (
+        /*[out]*/ double * x,
+        /*[out]*/ double * y ) = 0;
+};
+
+struct __declspec(uuid("7c790de5-bd3e-4f34-bf7a-7fa7250a87c0"))
+ISaveToPreviusParam : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual VARIANT_BOOL __stdcall AddWarning (
+        BSTR uniqueID,
+        BSTR optionName,
+        BSTR text ) = 0;
+      virtual VARIANT_BOOL __stdcall AddOption (
+        BSTR uniqueID,
+        BSTR optionName,
+        VARIANT options,
+        BSTR defaultValue ) = 0;
+      virtual BSTR __stdcall GetCurrentOptionValue (
+        BSTR uniqueID ) = 0;
+};
+
+struct __declspec(uuid("7aa0e540-0318-11d4-a30e-00c026ee094f"))
+IRasterFormatParam : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual short __stdcall GetFormat ( ) = 0;
+      virtual long __stdcall SetFormat (
+        short f ) = 0;
+      virtual short __stdcall GetColorBPP ( ) = 0;
+      virtual long __stdcall SetColorBPP (
+        short f ) = 0;
+      virtual long __stdcall GetGreyScale ( ) = 0;
+      virtual long __stdcall SetGreyScale (
+        long f ) = 0;
+      virtual int __stdcall GetExtResolution ( ) = 0;
+      virtual long __stdcall SetExtResolution (
+        int f ) = 0;
+      virtual double __stdcall GetExtScale ( ) = 0;
+      virtual long __stdcall SetExtScale (
+        double f ) = 0;
+      virtual short __stdcall GetColorType ( ) = 0;
+      virtual long __stdcall SetColorType (
+        short f ) = 0;
+      virtual long __stdcall GetOnlyThinLine ( ) = 0;
+      virtual long __stdcall SetOnlyThinLine (
+        long f ) = 0;
+      virtual LPWSTR __stdcall GetPages ( ) = 0;
+      virtual long __stdcall SetPages (
+        LPWSTR p ) = 0;
+      virtual short __stdcall GetRangeIndex ( ) = 0;
+      virtual long __stdcall SetRangeIndex (
+        short f ) = 0;
+      virtual long __stdcall GetMultiPageOutput ( ) = 0;
+      virtual long __stdcall SetMultiPageOutput (
+        long f ) = 0;
+      virtual long __stdcall Init ( ) = 0;
+      virtual long __stdcall GetSaveWorkArea ( ) = 0;
+      virtual long __stdcall SetSaveWorkArea (
+        long f ) = 0;
+      virtual long __stdcall GetReturnResultAsArrayBytes ( ) = 0;
+      virtual long __stdcall SetReturnResultAsArrayBytes (
+        long f ) = 0;
+      virtual VARIANT __stdcall GetResultArrayBytes ( ) = 0;
+      virtual long __stdcall SetResultArrayBytes (
+        VARIANT f ) = 0;
+};
+
+struct __declspec(uuid("c78ae949-84f6-4291-83e5-6aebf90d2e09"))
+IMouseEnterLeaveParameters : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual double __stdcall GetX ( ) = 0;
+      virtual void __stdcall SetX (
+        double NewVal ) = 0;
+      virtual double __stdcall GetY ( ) = 0;
+      virtual void __stdcall SetY (
+        double NewVal ) = 0;
+      virtual double __stdcall GetOffset ( ) = 0;
+      virtual void __stdcall SetOffset (
+        double NewVal ) = 0;
+      virtual double __stdcall GetOffsetAngle ( ) = 0;
+      virtual void __stdcall SetOffsetAngle (
+        double NewVal ) = 0;
+      virtual long __stdcall GetSymbol ( ) = 0;
+      virtual void __stdcall SetSymbol (
+        long NewVal ) = 0;
+      virtual BSTR __stdcall GetSymbolFont ( ) = 0;
+      virtual void __stdcall SetSymbolFont (
+        BSTR NewVal ) = 0;
+      virtual long __stdcall GetSymbolColor ( ) = 0;
+      virtual void __stdcall SetSymbolColor (
+        long NewVal ) = 0;
+      virtual double __stdcall GetSymbolScale ( ) = 0;
+      virtual void __stdcall SetSymbolScale (
+        double NewVal ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_Kompas6API2D5COM =
+    {0x0f4ab6c5,0x1420,0x4848,{0xaf,0xce,0x18,0xcb,0xe7,0x01,0xbe,0x1a}};
+extern "C" const GUID __declspec(selectany) IID_IKompasNotify =
+    {0xc89a8c15,0x2de0,0x408b,{0x8c,0x89,0xb1,0xcf,0x4e,0xae,0x12,0x63}};
+extern "C" const GUID __declspec(selectany) IID_IKompasObjectNotify =
+    {0xebf88cae,0x07d4,0x4fd3,{0x80,0x69,0xa0,0xef,0x15,0xf5,0x66,0x72}};
+extern "C" const GUID __declspec(selectany) IID_IDocumentFileNotify =
+    {0x0c11e121,0x22c4,0x40fb,{0x95,0x59,0xbe,0xcb,0x12,0x26,0x9d,0xcb}};
+extern "C" const GUID __declspec(selectany) IID_IStampNotify =
+    {0x704fbfc9,0x7edd,0x42d0,{0xbd,0xb5,0xc2,0x42,0xd0,0x6c,0x18,0xf9}};
+extern "C" const GUID __declspec(selectany) IID_IObject2DNotify =
+    {0x1f02922e,0xeaf8,0x4462,{0xaa,0xfb,0x47,0x27,0x37,0x82,0xfd,0x31}};
+extern "C" const GUID __declspec(selectany) IID_IObject2DNotifyResult =
+    {0xb17ba3c2,0x9697,0x493b,{0xba,0xa5,0x17,0x12,0xf3,0x49,0xee,0x53}};
+extern "C" const GUID __declspec(selectany) IID_ISelectionMngNotify =
+    {0xbaf64b25,0xb405,0x478d,{0x80,0x19,0x65,0x10,0x2e,0x45,0xe2,0xd5}};
+extern "C" const GUID __declspec(selectany) IID_ISpcObjectNotify =
+    {0x926b6f36,0x0bab,0x44c3,{0x8c,0xb8,0x2f,0x89,0xde,0x9d,0xdc,0xed}};
+extern "C" const GUID __declspec(selectany) IID_ISpcDocumentNotify =
+    {0x05586fab,0xfb5c,0x4e15,{0xb7,0xc0,0x66,0x39,0x10,0x6a,0x00,0x5d}};
+extern "C" const GUID __declspec(selectany) IID_ISpecificationNotify =
+    {0x46d9f0ca,0xc094,0x41c8,{0xb8,0x51,0xf8,0x6c,0xf5,0x65,0x48,0x1e}};
+extern "C" const GUID __declspec(selectany) IID_IDocument2DNotify =
+    {0x3a1d1701,0xba12,0x4d88,{0x9c,0x29,0x7c,0x0f,0xaf,0x7a,0x28,0x00}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerNotify =
+    {0x9ab42e3b,0x7437,0x407e,{0x96,0x0a,0x4f,0x50,0x98,0x12,0xab,0x11}};
+extern "C" const GUID __declspec(selectany) IID_IDocumentFrameNotify =
+    {0xa715a2f6,0x3210,0x4890,{0x9e,0xb4,0x32,0x7a,0x06,0xf9,0x0e,0xb6}};
+extern "C" const GUID __declspec(selectany) IID_IViewsAndLayersManagerNotify =
+    {0x341d4571,0x16f4,0x4928,{0x90,0x3e,0x69,0x06,0xe5,0x6d,0xac,0xd1}};
+extern "C" const GUID __declspec(selectany) IID_ILibraryManagerNotify =
+    {0x30265782,0x7631,0x4957,{0xaf,0x51,0x45,0x8c,0xaa,0x9a,0x76,0xec}};
+extern "C" const GUID __declspec(selectany) IID_IProcess2DNotify =
+    {0x225dde9a,0xa442,0x4cd5,{0x84,0x28,0x87,0x61,0x2b,0xc0,0x67,0x7a}};
+extern "C" const GUID __declspec(selectany) IID_IParametrizationParam =
+    {0xabba6ce0,0xcb4c,0x4a32,{0x98,0xb4,0xb6,0x39,0x35,0x2c,0x75,0xcc}};
+extern "C" const GUID __declspec(selectany) IID_ISnapInfo =
+    {0x90570c5f,0x3837,0x40d8,{0xb9,0xe4,0x56,0x3c,0x16,0x6a,0x4f,0xd0}};
+extern "C" const GUID __declspec(selectany) IID_ISaveToPreviusParam =
+    {0x7c790de5,0xbd3e,0x4f34,{0xbf,0x7a,0x7f,0xa7,0x25,0x0a,0x87,0xc0}};
+extern "C" const GUID __declspec(selectany) IID_IRasterFormatParam =
+    {0x7aa0e540,0x0318,0x11d4,{0xa3,0x0e,0x00,0xc0,0x26,0xee,0x09,0x4f}};
+extern "C" const GUID __declspec(selectany) IID_IMouseEnterLeaveParameters =
+    {0xc78ae949,0x84f6,0x4291,{0x83,0xe5,0x6a,0xeb,0xf9,0x0d,0x2e,0x09}};
+
+#pragma pack(pop)

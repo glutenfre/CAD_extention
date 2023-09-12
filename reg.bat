@@ -1,0 +1,2 @@
+reg add "HKEY_LOCAL_MACHINE\Software\ASCON\KOMPAS-3D\AddIns\VolumeExtension" /v "AutoConnect" /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\ASCON\KOMPAS-3D\AddIns\VolumeExtension" /v "Path" /t REG_SZ /d "C:\Users\Ivan\source\repos\volume_extension\volume_extension.rtw" /f

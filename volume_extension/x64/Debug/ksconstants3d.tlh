@@ -1,0 +1,2176 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.29.30148.0 (4e9c1d2d).
+//
+// C:\Users\Ivan\source\repos\volume_extension\volume_extension\x64\Debug\ksconstants3d.tlh
+//
+// C++ source equivalent of Win32 type library ksConstants3D.tlb
+// compiler-generated file created 05/12/23 at 00:45:47 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("2caf168c-7961-4b90-9da2-701419beefe3"))
+/* LIBID */ __Kompas6Constants3D;
+enum Obj3dType;
+enum ErrorType3d;
+enum Direction_Type;
+enum End_Type;
+enum Part_Type;
+enum MateConstraintType;
+enum ViewMode;
+enum D3FormatConvType;
+enum UseColor;
+enum Positioner_Type;
+enum Intersection_Type;
+enum ksMateType;
+enum ksLineBuildingType;
+enum ksPart7CollectionTypeEnum;
+enum ksUnfoldTypeEnum;
+enum ksBendDisposalEnum;
+enum ksBendLengthTypeEnum;
+enum ksBendOffsetTypeEnum;
+enum ksBendSideTypeEnum;
+enum ksBendReleaseTypeEnum;
+enum ksBendAngleReleaseTypeEnum;
+enum ksBendTypeEnum;
+enum ksHoleCutTypeEnum;
+enum ksChooseBodiesType;
+enum ksChoosePartsType;
+enum ksChooseType;
+enum ksPoint3DTypeEnum;
+enum ksPoint3DCurveParamTypeEnum;
+enum ksPoint3DSurfaceParamTypeEnum;
+enum ksMeasureResultEnum;
+enum ksOrientationTypeEnum;
+enum ksModelObjectParamTypeEnum;
+enum ks3DLineStyle;
+enum ksLoadStateEnum;
+enum ksFacetCullingMode;
+enum ksEquidistant3DCutModeEnum;
+enum ksPatternBasePointTypeEnum;
+enum ksExtensionSurfaceTypeEnum;
+enum ksExtensionLimitTypeEnum;
+enum ksVector3DParametersTypeEnum;
+enum ksBasisVectorTypeEnum;
+enum ksConnectTypeEnum;
+enum ksArc3DBuildingTypeEnum;
+enum ksArc3DParameterEnum;
+enum ksRotatedTypeEnum;
+enum ksLinearPatternBuildingTypeEnum;
+enum ksPartAccessTypeEnum;
+enum ksMeshPointsSurfaceBuildingTypeEnum;
+enum ksCloudPointsSurfaceBuildingTypeEnum;
+enum ksCloudTypeEnum;
+enum ksObjectsFilter3DEnum;
+enum ksCoordLawEnum;
+enum ksLawTypeEnum;
+enum ksCircularPatternBuildingTypeEnum;
+enum ksSplineTangentEnum;
+enum ksCurveProjectionTypeEnum;
+enum ksContour3DTypeEnum;
+enum ksLineSegment3DTypeEnum;
+enum ksConjunctivePointTypeEnum;
+enum ksContour3DBuildingTypeTypeEnum;
+enum ksRelationTypeEnum;
+enum ksSpiral3DHeightTypeEnum;
+enum ksSpline3DBuildingTypeEnum;
+enum ksSpline3DDiameterTypeEnum;
+enum ksPointsArrOnCurveTypeEnum;
+enum ksPointsArrOnSurfaceTypeEnum;
+enum ksMeshAroundPointTypeEnum;
+enum ksEditColorTypeEnum;
+enum ksProjectionOptionEnum;
+enum ksVisibleStateEnum;
+enum ksEditableStateEnum;
+enum ksToleranceRecalcsEnum;
+enum ksSpecRoughPlacementEnum;
+enum ksMathCurve3DTypeEnum;
+enum ksMathSurface3DTypeEnum;
+enum ksLengthBuildingTypeEnum;
+enum ksPatternExemplarsOrientationTypeEnum;
+enum ksModelDrawingElementsEnum;
+enum ksMateConstraintAlignmentEnum;
+enum ksMateFixedTypeEnum;
+enum ksMateTangentTypeEnum;
+enum ksViewProjectionType;
+enum ksDepthTypeEnum;
+enum ksEndFaceTypeEnum;
+enum ksHoleTypeEnum;
+enum ksCountersinkTypeEnum;
+enum ksConicTypeEnum;
+enum ksViewProjectionScheme;
+enum ksMateMotionTypeEnum;
+enum ksD3ConverterOptionsEnum;
+enum ksStepTypeEnum;
+enum ksTextExportFormEnum;
+enum ksFeatureStateEnum;
+enum ksChamferBuildingTypeEnum;
+enum ksFilletBuildingTypeEnum;
+enum ksFilletOffsetModeEnum;
+enum ksRibSideEnum;
+enum ksOperationResultEnum;
+enum ksLoftBuildingType;
+enum ksEvolutionShiftSketchTypeEnum;
+enum ksSketchBendBuildingTypeEnum;
+enum ksClosingTypeEnum;
+enum ksClosingCorneringEnum;
+enum ksClosingHolePlacementEnum;
+enum ksClosingClosedTypeEnum;
+enum ksUndercutDistanceTypeEnum;
+enum ksCutBuildingTypeEnum;
+enum ksShoulderTypeEnum;
+enum ksShoulderCutingTypeEnum;
+enum ksShoulderBuildingTypeEnum;
+enum ksJalousieBuildingTypeEnum;
+enum ksJalousieFormEndEnum;
+enum ksJalousieHeightTypeEnum;
+enum ksPressFormingHeightTypeEnum;
+enum ksSplineTransitionTypeEnum;
+enum ksTransitionVectorIndexEnum;
+enum ksSHRibBuildingTypeEnum;
+enum ksSHRibCutingTypeEnum;
+enum ksOffsetGapType;
+enum ksRuledBorderEnum;
+enum ksRuledJointEnum;
+enum ksSegmentationMethodEnum;
+enum ksZoneTypeEnum;
+enum ksZoneDivisionTypeEnum;
+enum ksGabaritBuildingTypeEnum;
+enum ksDynamicCrossSectionStepBuildingTypeEnum;
+enum ksCrossSectionPlaneBuildingTypeEnum;
+enum ksArchMeasureEnum;
+enum ksManipulatorTypeEnum;
+enum ksManipulatorPrimitiveEnum;
+enum ksManipulatorModeEnum;
+enum ksSelectionBandMode;
+enum ksProcessObjectsFilter3DEnum;
+enum ksCopyGeometryBuildingTypeEnum;
+enum ksMultiThicknessGroupTypeEnum;
+enum ksTextureTypeEnum;
+enum ksSheetMetalPunchBuildingTypeEnum;
+enum ksSheetMetalPunchThicknessTypeEnum;
+enum ksScalingTypeEnum;
+enum ksEvolutionVersionEnum;
+enum ksTechnicalDemand3DPlacementEnum;
+typedef enum Obj3dType ksObj3dTypeEnum;
+typedef enum Direction_Type ksDirectionTypeEnum;
+typedef enum End_Type ksEndTypeEnum;
+typedef enum UseColor ksUseColorEnum;
+
+//
+// Type library items
+//
+
+enum __declspec(uuid("b6d1c804-a4d7-4e09-bc89-17a14f478a5e"))
+Obj3dType
+{
+    o3d_unknown = 0,
+    o3d_planeXOY = 1,
+    o3d_planeXOZ = 2,
+    o3d_planeYOZ = 3,
+    o3d_pointCS = 4,
+    o3d_sketch = 5,
+    o3d_face = 6,
+    o3d_edge = 7,
+    o3d_vertex = 8,
+    o3d_axis2Planes = 9,
+    o3d_axis2Points = 10,
+    o3d_axisConeFace = 11,
+    o3d_axisEdge = 12,
+    o3d_axisOperation = 13,
+    o3d_planeOffset = 14,
+    o3d_planeAngle = 15,
+    o3d_plane3Points = 16,
+    o3d_planeNormal = 17,
+    o3d_planeTangent = 18,
+    o3d_planeEdgePoint = 19,
+    o3d_planeParallel = 20,
+    o3d_planePerpendicular = 21,
+    o3d_planeLineToEdge = 22,
+    o3d_planeLineToPlane = 23,
+    o3d_baseExtrusion = 24,
+    o3d_bossExtrusion = 25,
+    o3d_cutExtrusion = 26,
+    o3d_baseRotated = 27,
+    o3d_bossRotated = 28,
+    o3d_cutRotated = 29,
+    o3d_baseLoft = 30,
+    o3d_bossLoft = 31,
+    o3d_cutLoft = 32,
+    o3d_chamfer = 33,
+    o3d_fillet = 34,
+    o3d_meshCopy = 35,
+    o3d_circularCopy = 36,
+    o3d_curveCopy = 37,
+    o3d_circPartArray = 38,
+    o3d_meshPartArray = 39,
+    o3d_curvePartArray = 40,
+    o3d_derivPartArray = 41,
+    o3d_incline = 42,
+    o3d_shellOperation = 43,
+    o3d_ribOperation = 44,
+    o3d_baseEvolution = 45,
+    o3d_bossEvolution = 46,
+    o3d_cutEvolution = 47,
+    o3d_mirrorOperation = 48,
+    o3d_mirrorAllOperation = 49,
+    o3d_cutByPlane = 50,
+    o3d_cutBySketch = 51,
+    o3d_holeOperation = 52,
+    o3d_polyline = 53,
+    o3d_conicSpiral = 54,
+    o3d_spline = 55,
+    o3d_cylindricSpiral = 56,
+    o3d_importedSurface = 57,
+    o3d_thread = 58,
+    o3d_EvolutionSurface = 59,
+    o3d_ExtrusionSurface = 60,
+    o3d_RotatedSurface = 61,
+    o3d_LoftSurface = 62,
+    o3d_MacroObject = 63,
+    o3d_UnionComponents = 64,
+    o3d_MoldCavity = 65,
+    o3d_planeMiddle = 66,
+    o3d_controlPoint = 67,
+    o3d_conjunctivePoint = 68,
+    o3d_aggregate = 69,
+    o3d_point3D = 70,
+    o3d_axisOX = 71,
+    o3d_axisOY = 72,
+    o3d_axisOZ = 73,
+    o3d_sheetMetalBody = 74,
+    o3d_sheetMetalBend = 75,
+    o3d_sheetMetalLineBend = 76,
+    o3d_sheetMetalHole = 77,
+    o3d_sheetMetalCut = 78,
+    o3d_UnHistoried = 79,
+    o3d_baselineDimension3D = 80,
+    o3d_lineDimension3D = 81,
+    o3d_radialDimension3D = 82,
+    o3d_diametralDimension3D = 83,
+    o3d_angleDimension3D = 84,
+    o3d_localCoordinateSystem = 85,
+    o3d_leader3D = 86,
+    o3d_markLeader3D = 87,
+    o3d_rough3D = 88,
+    o3d_positionLeader3D = 89,
+    o3d_brandLeader3D = 90,
+    o3d_base3D = 91,
+    o3d_tolerance3D = 92,
+    o3d_SplitLine = 93,
+    o3d_SurfacePatch = 94,
+    o3d_FaceRemover = 95,
+    o3d_SurfaceSewer = 96,
+    o3d_NurbsSurface = 97,
+    o3d_SurfacesIntersectionCurve = 98,
+    o3d_lastEntityElement = 99,
+    o3d_variable = 100,
+    o3d_placement = 101,
+    o3d_entityCollection = 102,
+    o3d_document = 103,
+    o3d_part = 104,
+    o3d_entity = 105,
+    o3d_mateConstraint = 106,
+    o3d_mateConstraintCollection = 107,
+    o3d_partCollection = 108,
+    o3d_constrElement = 109,
+    o3d_operationElement = 110,
+    o3d_curveElement = 111,
+    o3d_rasterFormat = 112,
+    o3d_additionFormat = 113,
+    o3d_bodyCollection = 114,
+    o3d_body = 115,
+    o3d_faceCollection = 116,
+    o3d_tessellation = 117,
+    o3d_facet = 118,
+    o3d_featureCollection = 119,
+    o3d_feature = 120,
+    o3d_edgeCollection = 121,
+    o3d_orientedEdge = 122,
+    o3d_orientedEdgeCollection = 123,
+    o3d_loop = 124,
+    o3d_loopCollection = 125,
+    o3d_curve3D = 126,
+    o3d_surface = 127,
+    o3d_massInertiaParam = 128,
+    o3d_lineseg3dParam = 129,
+    o3d_circle3dParam = 130,
+    o3d_ellipse3dParam = 131,
+    o3d_nurbsPoint3dParam = 132,
+    o3d_nurbsPoint3dCollection = 133,
+    o3d_nurbsPoint3dCollCollection = 134,
+    o3d_nurbsKnotCollection = 135,
+    o3d_nurbs3dParam = 136,
+    o3d_planeParam = 137,
+    o3d_coneParam = 138,
+    o3d_cylinderParam = 139,
+    o3d_sphereParam = 140,
+    o3d_torusParam = 141,
+    o3d_nurbsSurfaceParam = 142,
+    o3d_mateConstraintGroup = 143,
+    o3d_measurer = 144,
+    o3d_selectionMng = 145,
+    o3d_chooseMng = 146,
+    o3d_arc3dParam = 147,
+    o3d_deletedCopyCollection = 148,
+    o3d_viewProjection = 149,
+    o3d_viewProjectionCollection = 150,
+    o3d_attribute = 151,
+    o3d_attributeCollection = 152,
+    o3d_componentPositioner = 153,
+    o3d_modelLibrary = 154,
+    o3d_ObjectsFilter3D = 155,
+    o3d_coordinate3dCollection = 156,
+    o3d_intersectionResult = 157,
+    o3d_PolygonalLineVertexParam = 158,
+    o3d_variableCollection = 159,
+    o3d_sTrackingPointsMeasurer = 160,
+    o3d_surfaceElement = 161,
+    o3d_designationElement = 162,
+    o3d_copyleftObject = 163,
+    o3d_Embodiment = 164,
+    o3d_userMateConstraint = 165,
+    o3d_intervalVariable = 166,
+    o3d_userFunc = 167,
+    o3d_firstEntityElement2 = 500,
+    o3d_Equidistant3D = 501,
+    o3d_TrimmedCurve = 502,
+    o3d_TrimmedCurveObject = 503,
+    o3d_AuxMeshCopy = 504,
+    o3d_AuxCircularCopy = 505,
+    o3d_AuxCurveCopy = 506,
+    o3d_PointDrivenPattern = 507,
+    o3d_PartsPointDrivenPattern = 508,
+    o3d_AuxMirrorOperation = 509,
+    o3d_ConnectCurve = 510,
+    o3d_ConnectCurveObject = 511,
+    o3d_FilletCurve = 512,
+    o3d_FilletCurveObject = 513,
+    o3d_EquidistantSurface = 514,
+    o3d_RuledSurface = 515,
+    o3d_TrimmedSurface = 516,
+    o3d_ExtensionSurface = 517,
+    o3d_SurfaceThickening = 518,
+    o3d_Arc3D = 519,
+    o3d_AuxPointDrivenPattern = 520,
+    o3d_BodiesPointDrivenPattern = 521,
+    o3d_TablePattern = 522,
+    o3d_PartsTablePattern = 523,
+    o3d_AuxTablePattern = 524,
+    o3d_BodiesTablePattern = 525,
+    o3d_MeshPointsSurface = 526,
+    o3d_CloudPointsSurface = 527,
+    o3d_BodiesMeshCopy = 528,
+    o3d_BodiesCircularCopy = 529,
+    o3d_BodiesCurveCopy = 530,
+    o3d_Scaling3D = 531,
+    o3d_MirrorPart = 532,
+    o3d_sheetMetalUndercut = 533,
+    o3d_sheetMetalPlate = 534,
+    o3d_sheetMetalCombinedBend = 535,
+    o3d_sheetMetalBendStraighten = 536,
+    o3d_sheetMetalBendBended = 537,
+    o3d_sheetMetalBendUnfold = 538,
+    o3d_sheetMetalClosedCorner = 539,
+    o3d_sheetMetalBendObject = 540,
+    o3d_sheetMetalDimpleCutout = 541,
+    o3d_sheetMetalDrawnCutout = 542,
+    o3d_sheetMetalBeat = 543,
+    o3d_sheetMetalLouver = 544,
+    o3d_sheetMetalCowling = 545,
+    o3d_PointsArrOnCurve = 546,
+    o3d_PointsArrFromFile = 547,
+    o3d_PointsArrOnSurface = 548,
+    o3d_ArrayExemplar = 549,
+    o3d_AuxGeomArrayExemplar = 550,
+    o3d_BodyArrayExemplar = 551,
+    o3d_NurbsSurfaceByCurvesMesh = 552,
+    o3d_PlaneByPointAndTangentToFace = 553,
+    o3d_PlaneByPlaneCurve = 554,
+    o3d_JointSurface = 555,
+    o3d_DistanceAngleMeasure = 556,
+    o3d_EdgeLengthMeasure = 557,
+    o3d_AreaMeasure = 558,
+    o3d_AxisFromPointByDirection = 559,
+    o3d_Curve3DWithoutHistory = 560,
+    o3d_CurveBy2Projections = 561,
+    o3d_CurveByLaw = 562,
+    o3d_IsoparametricCurve = 563,
+    o3d_CurveOutLine = 564,
+    o3d_SplineOnSurface = 565,
+    o3d_IsoparametricCurvesSet = 566,
+    o3d_ProjectionCurve = 567,
+    o3d_Contour3D = 568,
+    o3d_BodyReposition = 569,
+    o3d_LineSegment3D = 570,
+    o3d_Billet = 571,
+    o3d_PolyLine3DPoint = 572,
+    o3d_OperationLinearDimension = 573,
+    o3d_OperationAngularDimension = 574,
+    o3d_OperationRadialDimension = 575,
+    o3d_OperationDiametralDimension = 576,
+    o3d_SketchLinearDimension = 577,
+    o3d_SketchAngularDimension = 578,
+    o3d_SketchBreakAngularDimension = 579,
+    o3d_SketchRadialDimension = 580,
+    o3d_SketchBreakRadialDimension = 581,
+    o3d_SketchDiametralDimension = 582,
+    o3d_Hole3D = 583,
+    o3d_UserObjectOperation = 584,
+    o3d_Zone3D = 585,
+    o3d_Zone3DDivision = 586,
+    o3d_Zones3D = 587,
+    o3d_WireFrame3D = 588,
+    o3d_CopyGeometry = 589,
+    o3d_CollectionGeometry = 590,
+    o3d_MeshPatternAnyCopy = 591,
+    o3d_CircularPatternAnyCopy = 592,
+    o3d_CurvePatternAnyCopy = 593,
+    o3d_PointDrivenPatternAnyCopy = 595,
+    o3d_TablePatternAnyCopy = 596,
+    o3d_LinearUnhistoriedDimension = 597,
+    o3d_AngularUnhistoriedDimension = 598,
+    o3d_RadialUnhistoriedDimension = 599,
+    o3d_DiametralUnhistoriedDimension = 600,
+    o3d_FaceLift = 601,
+    o3d_UserWireFrame3D = 602,
+    o3d_UndefPartObject = 603,
+    o3d_SpecRough3D = 604,
+    o3d_SketchBreakLinearDimension = 605,
+    o3d_sheetMetalLinearCowling = 606,
+    o3d_UserDesignationObject3D = 607,
+    o3d_SplineFormOperation = 608,
+    o3d_UnhistoriedBase3D = 609,
+    o3d_UnhistoriedThread = 610,
+    o3d_UserDesignationCompObj = 611,
+    o3d_UserFolder = 612,
+    o3d_MeshObject3D = 613,
+    o3d_sheetMetalRib = 614,
+    o3d_axis3D = 615,
+    o3d_SubFoldLine = 616,
+    o3d_OperationLeaderDimension = 617,
+    o3d_FullFillet = 618,
+    o3d_DynamicCrossSection = 619,
+    o3d_RestoredSurface = 620,
+    o3d_CurvatureGraph = 621,
+    o3d_CollisionObject = 622,
+    o3d_CurvatureCheckObject = 623,
+    o3d_ContinuityCheck = 624,
+    o3d_SketchFace = 625,
+    o3d_SectionAnalysis = 626,
+    o3d_Text3D = 627,
+    o3d_SketchArcDimension = 628,
+    o3d_ArcDimension3D = 629,
+    o3d_sheetMetalPunch = 630,
+    o3d_sheetMetalFlanging = 631,
+    o3d_FaceMover = 632,
+    o3d_SplitSolid = 633,
+    o3d_sheetMetalConvertFromBody = 634,
+    o3d_ConicSectionSurface = 635,
+    o3d_TechnicalDemand3D = 636,
+    o3d_ModelText = 637,
+    o3d_ModelTable = 638,
+    o3d_lastEntityElement2 = 1500
+};
+
+enum __declspec(uuid("aac936a6-363a-4366-a00b-11e69dc9e011"))
+ErrorType3d
+{
+    et3dNo3dDocument = -7,
+    et3dAbort = -1,
+    et3dError1 = 1,
+    et3dError2 = 2,
+    et3dError3 = 3,
+    et3dError4 = 4,
+    et3dError5 = 5,
+    et3dError6 = 6,
+    et3dError7 = 7,
+    et3dError8 = 8,
+    et3dError9 = 9,
+    et3dError10 = 10,
+    et3dError11 = 11,
+    et3dError12 = 12,
+    et3dError13 = 13,
+    et3dError14 = 14,
+    et3dError15 = 15,
+    et3dError16 = 16,
+    et3dError17 = 17,
+    et3dError18 = 18,
+    et3dError19 = 19,
+    et3dError20 = 20,
+    et3dError21 = 21,
+    et3dError22 = 22,
+    et3dError23 = 23,
+    et3dError24 = 24,
+    et3dError25 = 25,
+    et3dError26 = 26,
+    et3dError27 = 27,
+    et3dError28 = 28,
+    et3dError29 = 29,
+    et3dError30 = 30,
+    et3dError31 = 31,
+    et3dError32 = 32,
+    et3dError33 = 33,
+    et3dError34 = 34,
+    et3dError35 = 35,
+    et3dError36 = 36,
+    et3dError37 = 37,
+    et3dError38 = 38,
+    et3dError39 = 39,
+    et3dError40 = 40,
+    et3dError41 = 41,
+    et3dError42 = 42,
+    et3dError43 = 43,
+    et3dError44 = 44,
+    et3dError45 = 45,
+    et3dError46 = 46,
+    et3dError47 = 47,
+    et3dError48 = 48,
+    et3dError49 = 49,
+    et3dError50 = 50,
+    et3dError51 = 51,
+    et3dError52 = 52,
+    et3dError53 = 53,
+    et3dError54 = 54,
+    et3dError55 = 55,
+    et3dError56 = 56,
+    et3dError57 = 57,
+    et3dError58 = 58,
+    et3dError59 = 59,
+    et3dError60 = 60,
+    et3dError61 = 61,
+    et3dError62 = 62,
+    et3dError63 = 63,
+    et3dError64 = 64,
+    et3dError65 = 65,
+    et3dError66 = 66,
+    et3dError67 = 67,
+    et3dError68 = 68,
+    et3dError69 = 69,
+    et3dError70 = 70,
+    et3dError71 = 71,
+    et3dError72 = 72,
+    et3dError73 = 73,
+    et3dError74 = 74,
+    et3dError75 = 75,
+    et3dError76 = 76,
+    et3dError77 = 77,
+    et3dError78 = 78,
+    et3dError79 = 79,
+    et3dError80 = 80,
+    et3dError81 = 81,
+    et3dError82 = 82,
+    et3dError83 = 83,
+    et3dError84 = 84,
+    et3dError85 = 85,
+    et3dError86 = 86,
+    et3dError87 = 87,
+    et3dError88 = 88,
+    et3dError89 = 89,
+    et3dError90 = 90,
+    et3dError91 = 91,
+    et3dError92 = 92,
+    et3dError93 = 93,
+    et3dError94 = 94,
+    et3dError95 = 95,
+    et3dError96 = 96,
+    et3dError97 = 97,
+    et3dError98 = 98,
+    et3dError99 = 99,
+    et3dError100 = 100,
+    et3dError101 = 101,
+    et3dError102 = 102,
+    et3dError103 = 103,
+    et3dError104 = 104,
+    et3dError105 = 105,
+    et3dError106 = 106,
+    et3dError107 = 107,
+    et3dError108 = 108,
+    et3dError109 = 109,
+    et3dError110 = 110,
+    et3dError111 = 111,
+    et3dError112 = 112,
+    et3dError113 = 113,
+    et3dError114 = 114,
+    et3dError115 = 115,
+    et3dError116 = 116,
+    et3dError117 = 117,
+    et3dError118 = 118,
+    et3dError119 = 119,
+    et3dError120 = 120,
+    et3dError121 = 121,
+    et3dError122 = 122,
+    et3dError123 = 123,
+    et3dError124 = 124,
+    et3dError125 = 125,
+    et3dError126 = 126,
+    et3dError127 = 127,
+    et3dError128 = 128,
+    et3dError129 = 129,
+    et3dError130 = 130,
+    et3dError131 = 131,
+    et3dError132 = 132,
+    et3dError133 = 133,
+    et3dError134 = 134,
+    et3dError135 = 135,
+    et3dError136 = 136,
+    et3dError137 = 137,
+    et3dError138 = 138,
+    et3dError139 = 139,
+    et3dError140 = 140,
+    et3dError141 = 141,
+    et3dError142 = 142,
+    et3dError143 = 143,
+    et3dError144 = 144,
+    et3dError145 = 145,
+    et3dError146 = 146,
+    et3dError147 = 147,
+    et3dError148 = 148,
+    et3dError149 = 149,
+    et3dError150 = 150,
+    et3dError151 = 151,
+    et3dError152 = 152,
+    et3dError153 = 153,
+    et3dError154 = 154,
+    et3dError155 = 155,
+    et3dError156 = 156,
+    et3dError157 = 157,
+    et3dError158 = 158,
+    et3dError159 = 159,
+    et3dError160 = 160,
+    et3dError161 = 161,
+    et3dError162 = 162,
+    et3dError163 = 163,
+    et3dError164 = 164,
+    et3dError165 = 165,
+    et3dError166 = 166,
+    et3dError167 = 167,
+    et3dError168 = 168,
+    et3dError169 = 169,
+    et3dError170 = 170,
+    et3dError171 = 171,
+    et3dError172 = 172,
+    et3dError173 = 173,
+    et3dError174 = 174,
+    et3dError175 = 175,
+    et3dError176 = 176,
+    et3dError177 = 177,
+    et3dError179 = 179,
+    et3dError180 = 180,
+    et3dError181 = 181,
+    et3dError182 = 182,
+    et3dError183 = 183,
+    et3dError184 = 184,
+    et3dError185 = 185,
+    et3dError186 = 186,
+    et3dError187 = 187,
+    et3dError188 = 188,
+    et3dError189 = 189,
+    et3dError190 = 190,
+    et3dError191 = 191,
+    et3dError192 = 192,
+    et3dError193 = 193,
+    et3dError194 = 194,
+    et3dError195 = 195,
+    et3dError196 = 196,
+    et3dError197 = 197,
+    et3dError198 = 198,
+    et3dError199 = 199,
+    et3dError200 = 200,
+    et3dError201 = 201,
+    et3dError202 = 202,
+    et3dError301 = 301,
+    et3dError302 = 302,
+    et3dError303 = 303,
+    et3dError304 = 304,
+    et3dError305 = 305,
+    et3dError306 = 306,
+    et3dError307 = 307,
+    et3dError308 = 308,
+    et3dError309 = 309,
+    et3dError501 = 501,
+    et3dError502 = 502,
+    et3dError503 = 503,
+    et3dError504 = 504,
+    et3dError505 = 505,
+    et3dError506 = 506,
+    et3dError507 = 507,
+    et3dError508 = 508,
+    et3dError509 = 509,
+    et3dError510 = 510,
+    et3dError511 = 511,
+    et3dError512 = 512,
+    et3dError513 = 513,
+    et3dError514 = 514,
+    et3dError515 = 515,
+    et3dError516 = 516,
+    et3dError517 = 517,
+    et3dError518 = 518,
+    et3dError519 = 519,
+    et3dError520 = 520,
+    et3dError521 = 521,
+    et3dError522 = 522,
+    et3dError523 = 523,
+    et3dError524 = 524,
+    et3dError525 = 525,
+    et3dError526 = 526,
+    et3dError527 = 527,
+    et3dError528 = 528,
+    et3dError529 = 529,
+    et3dError531 = 531,
+    et3dError532 = 532,
+    et3dError533 = 533,
+    et3dError534 = 534,
+    et3dError535 = 535,
+    et3dError536 = 536,
+    et3dError537 = 537,
+    et3dError538 = 538,
+    et3dError539 = 539,
+    et3dError540 = 540,
+    et3dError541 = 541,
+    et3dError542 = 542,
+    et3dError543 = 543,
+    et3dError544 = 544,
+    et3dError545 = 545,
+    et3dError546 = 546,
+    et3dError601 = 601,
+    et3dError602 = 602,
+    et3dError603 = 603,
+    et3dError604 = 604,
+    et3dError605 = 605,
+    et3dError606 = 606,
+    et3dError607 = 607,
+    et3dError608 = 608,
+    et3dError609 = 609,
+    et3dError610 = 610,
+    et3dError611 = 611,
+    et3dError612 = 612,
+    et3dError613 = 613,
+    et3dError614 = 614,
+    et3dError615 = 615,
+    et3dError616 = 616,
+    et3dError617 = 617,
+    et3dError618 = 618,
+    et3dError619 = 619,
+    et3dError620 = 620,
+    et3dError621 = 621,
+    et3dError622 = 622,
+    et3dError623 = 623,
+    et3dError624 = 624,
+    et3dError625 = 625,
+    et3dError626 = 626,
+    et3dError627 = 627
+};
+
+enum __declspec(uuid("a4e48013-aed8-4866-b202-f7c114fbcbc4"))
+Direction_Type
+{
+    dtNormal = 0,
+    dtReverse = 1,
+    dtBoth = 2,
+    dtMiddlePlane = 3
+};
+
+enum __declspec(uuid("2d7b00ce-b16e-421b-ab0f-194e154480eb"))
+End_Type
+{
+    etBlind = 0,
+    etThroughAll = 1,
+    etUpToVertexTo = 2,
+    etUpToVertexFrom = 3,
+    etUpToSurfaceTo = 4,
+    etUpToSurfaceFrom = 5,
+    etUpToNearSurface = 6
+};
+
+enum __declspec(uuid("caf37955-8dd4-4c8b-9353-086f3dbdd25f"))
+Part_Type
+{
+    pInPlace_Part = -4,
+    pNew_Part = -3,
+    pEdit_Part = -2,
+    pTop_Part = -1
+};
+
+enum __declspec(uuid("d35c0b15-b4ad-4162-aa05-6bd05c805e7c"))
+MateConstraintType
+{
+    mc_Unknown = -1,
+    mc_Coincidence = 0,
+    mc_Parallel = 1,
+    mc_Perpendicular = 2,
+    mc_Tangency = 3,
+    mc_Concentric = 4,
+    mc_Distance = 5,
+    mc_Angle = 6,
+    mc_InPlace = 7,
+    mc_Transmission = 9,
+    mc_CamGear = 10,
+    mc_Symmetric = 11,
+    mc_Dependent = 14
+};
+
+enum __declspec(uuid("e6df6a50-5e51-4036-a2e4-c391cacac0bb"))
+ViewMode
+{
+    vm_Wireframe = 0,
+    vm_HiddenRemoved = 1,
+    vm_HiddenThin = 2,
+    vm_Shaded = 3
+};
+
+enum __declspec(uuid("812d86f5-e9fc-48f1-82af-966785ee7426"))
+D3FormatConvType
+{
+    load_format_SAT = -1,
+    load_format_XT = -2,
+    load_format_STEP = -3,
+    load_format_IGES = -4,
+    load_format_STL = -6,
+    load_format_C3D = -7,
+    load_format_JT = -8,
+    load_format_OBJ = -9,
+    format_Unknown = 0,
+    format_SAT = 1,
+    format_XT = 2,
+    format_STEP = 3,
+    format_IGES = 4,
+    format_VRML = 5,
+    format_STL = 6,
+    format_C3D = 7,
+    format_JT = 8,
+    load_format_NX = -100,
+    load_format_CREO = -101,
+    load_format_SW = -102,
+    load_format_INV = -103,
+    load_format_CATIA = -104,
+    load_format_SE = -105,
+    format_STEP_AP203 = 203,
+    format_STEP_AP214 = 214,
+    format_STEP_AP242 = 242
+};
+
+enum __declspec(uuid("8967de31-3b79-4d39-a37e-a5339ddb46b3"))
+UseColor
+{
+    useColorUnknown = -1,
+    useColorOur = 0,
+    useColorOwner = 1,
+    useColorSource = 2,
+    useColorLayer = 3
+};
+
+enum __declspec(uuid("0ba91e24-1695-40ea-bd4c-fc1caafbadf3"))
+Positioner_Type
+{
+    pnMove = 0,
+    pnRotate = 1
+};
+
+enum __declspec(uuid("b5a71cd2-1ff5-4ba2-b733-f7d563fa2104"))
+Intersection_Type
+{
+    itTangentPoint = 1,
+    itTangentCurve = 2,
+    itTangentSurface = 3,
+    itBody = 4
+};
+
+enum __declspec(uuid("fa6f3f1a-e10d-4022-a546-e4dd75895c90"))
+ksMateType
+{
+    ksMateUnknown = 0,
+    ksMatePoint = 1,
+    ksMateLine = 2,
+    ksMatePlane = 3,
+    ksMateCylinder = 4,
+    ksMateCone = 5,
+    ksMateSphere = 6,
+    ksMateTorus = 7,
+    ksMateCircle = 8
+};
+
+enum __declspec(uuid("4dec076f-b6bd-45a5-9eaf-98b8903f9679"))
+ksLineBuildingType
+{
+    ksLBTByPoint = 0,
+    ksLBTXDirection = 1,
+    ksLBTYDirection = 2,
+    ksLBTZDirection = 3,
+    ksLBTParallel = 4,
+    ksLBTPerpendicular = 5,
+    ksLBTByPoint3DParams = 6
+};
+
+enum __declspec(uuid("694c5399-c24f-4c55-ae20-1db0b3fa20f5"))
+ksPart7CollectionTypeEnum
+{
+    ksAllParts = 0,
+    ksUniqueParts = 1
+};
+
+enum __declspec(uuid("c70eaca3-4800-499b-aecb-44455cffb90a"))
+ksUnfoldTypeEnum
+{
+    ksCoefficient = 0,
+    ksValueBend = 1,
+    ksDecreaseBend = 2,
+    ksTableBends = 3
+};
+
+enum __declspec(uuid("21039896-b184-4281-8e53-1250c6deedf9"))
+ksBendDisposalEnum
+{
+    ksBendDisposalAllLength = 0,
+    ksBendDisposalCentre = 1,
+    ksBendDisposalLeft = 2,
+    ksBendDisposalRight = 3,
+    ksBendDisposalTwo = 4,
+    ksBendDisposalLeftAndWidth = 5,
+    ksBendDisposalRightAndWidth = 6
+};
+
+enum __declspec(uuid("cd78e854-7c68-428c-8f62-c06830b4ff1d"))
+ksBendLengthTypeEnum
+{
+    ksBendLengthByContinue = 0,
+    ksBendLengthByContour = 1,
+    ksBendLengthByTouch = 2,
+    ksBendLengthByContourInternal = 3,
+    ksBendLengthByTangentInternal = 4
+};
+
+enum __declspec(uuid("d1c2fc96-4e75-4db6-b8f7-0123e6d16a9a"))
+ksBendOffsetTypeEnum
+{
+    ksBendOffsetIn = 0,
+    ksBendOffsetOut = 1,
+    ksBendOffsetLineOutside = 2,
+    ksBendOffsetLineInside = 3,
+    ksBendOffsetByTouch = 4,
+    ksBendOffsetByCentre = 5
+};
+
+enum __declspec(uuid("d809f5d8-1d57-49b3-b202-c2bf2c113700"))
+ksBendSideTypeEnum
+{
+    ksBendSideByAngle = 0,
+    ksBendSideByWidening = 1
+};
+
+enum __declspec(uuid("54a9a1ba-d745-48fe-b902-578bf05fab49"))
+ksBendReleaseTypeEnum
+{
+    ksBendReleaseByRect = 0,
+    ksBendReleaseByCircle = 1
+};
+
+enum __declspec(uuid("22c2b7d6-dbae-49a1-9f73-14a03f44b0cd"))
+ksBendAngleReleaseTypeEnum
+{
+    ksBendAngleBendOnly = 0,
+    ksBendAngleIn = 1,
+    ksBendAngleAllBends = 2
+};
+
+enum __declspec(uuid("188cfe49-bc6b-4e5f-86fa-2114fc706e30"))
+ksBendTypeEnum
+{
+    ksLineBend = 0,
+    ksBendLineOutside = 1,
+    ksBendLineInside = 2,
+    ksBendByTouch = 3,
+    ksBendByCentre = 4
+};
+
+enum __declspec(uuid("9967a367-cb76-4960-8689-3b2305277708"))
+ksHoleCutTypeEnum
+{
+    ksHoleCutByWidth = 0,
+    ksHoleCutByDepth = 1,
+    ksHoleCutUpToSurface = 2
+};
+
+enum __declspec(uuid("f5e8cd7e-785c-4a3f-bf94-42005021248a"))
+ksChooseBodiesType
+{
+    ksNewBody = 0,
+    ksAutomaticDefinition = 1,
+    ksManualEditing = 2,
+    ksAllBodies = 3
+};
+
+enum __declspec(uuid("d203dcd8-f3cc-4c5d-aa32-09f74f66ff98"))
+ksChoosePartsType
+{
+    ksChAutomaticDefinition = 1,
+    ksChManualEditing = 2,
+    ksChAllParts = 3,
+    ksChNoLibraryParts = 4
+};
+
+enum __declspec(uuid("1cdf04a8-ce92-4d22-8f94-1b1375742861"))
+ksChooseType
+{
+    ksChBodiesAndParts = 1,
+    ksChParts = 2,
+    ksChBodies = 3
+};
+
+enum __declspec(uuid("3f409e43-7a53-4ae8-a17b-5b815e450fc1"))
+ksPoint3DTypeEnum
+{
+    ksPUnknown = 0,
+    ksPParamCoord = 1,
+    ksPDisplace = 2,
+    ksPIntersect = 3,
+    ksPCenter = 4,
+    ksPCurve = 5,
+    ksPSurface = 6,
+    ksPProjection = 7,
+    ksPCylindrCoord = 8,
+    ksPSphericCoord = 9
+};
+
+enum __declspec(uuid("d619d348-858c-436b-992d-035deda5607c"))
+ksPoint3DCurveParamTypeEnum
+{
+    ksOffsetByU = 1,
+    ksOffsetByLen = 2,
+    ksOffsetByAngle = 3
+};
+
+enum __declspec(uuid("73af2d44-a0da-4062-ad6d-11728988a474"))
+ksPoint3DSurfaceParamTypeEnum
+{
+    ksOffsetByUV = 1,
+    ksOffsetByLenFromObj = 2,
+    ksOffsetByCoords = 3,
+    ksOffsetByCylinderCoords = 4,
+    ksOffsetBySphereCoords = 5
+};
+
+enum __declspec(uuid("0cdda9a4-158f-4fd4-b2a8-ffe1389a7e1b"))
+ksMeasureResultEnum
+{
+    ksMResUnknown = 0,
+    ksMResAxisAxisCoaxial = 1,
+    ksMResAxisAxisParallel = 2,
+    ksMResAxisAxisIntersect = 3,
+    ksMResAxisAxisDistant = 4,
+    ksMResAxisSurfColinear = 5,
+    ksMResAxisSurfParallel = 6,
+    ksMResAxisSurfIntersect = 7,
+    ksMResAxisSurfDistant = 8,
+    ksMResSurfSurfColinear = 9,
+    ksMResSurfSurfParallel = 10,
+    ksMResSurfSurfIntersecting = 11
+};
+
+enum __declspec(uuid("4eae8137-cea4-4f75-97e4-1a4374ffd96a"))
+ksOrientationTypeEnum
+{
+    ksAxisOrientation = 0,
+    ksEulerCorners = 1,
+    ksOrientByObject = 2
+};
+
+enum __declspec(uuid("e88e7e08-b3f8-49f7-872e-b80795eded95"))
+ksModelObjectParamTypeEnum
+{
+    ksMOAllParam = 1,
+    ksMOPartAllParam = 2,
+    ksMOCurrentLSKAllParam = 3
+};
+
+enum __declspec(uuid("4e11babd-f5a9-4678-9387-f112c676cde2"))
+ks3DLineStyle
+{
+    ksCS3DNoDrawing = 0,
+    ksCS3DSolid = 1,
+    ksCS3DDashed = 2,
+    ksCS3DDotted = 3,
+    ksCS3DDashDot = 4,
+    ksCS3DDashDotLDash2Dots = 5
+};
+
+enum __declspec(uuid("7e3a2f5d-3339-45eb-ba57-6e99da20bb24"))
+ksLoadStateEnum
+{
+    ksLUnknown = -1,
+    ksLCompletely = 0,
+    ksLUnload = 1,
+    ksLTriangles = 2,
+    ksLPartially = 3,
+    ksLGabarit = 4
+};
+
+enum __declspec(uuid("fad600a1-a24a-4b4d-9661-6ec6ad1757a4"))
+ksFacetCullingMode
+{
+    ksFSMNone = 0,
+    ksFSMFront = 1,
+    ksFSMBack = 2,
+    ksFSMAll = 3
+};
+
+enum __declspec(uuid("5c0df5ce-53f6-4b55-8d9f-77b28059c4bf"))
+ksEquidistant3DCutModeEnum
+{
+    ksECMUnknown = 0,
+    ksECMLineSeg = 1,
+    ksECMCircle = 2
+};
+
+enum __declspec(uuid("75a8aaf6-5082-4864-936b-45ad2d4f894c"))
+ksPatternBasePointTypeEnum
+{
+    ksCRAuto = 0,
+    ksCRManual = 1,
+    ksCRFirstObject = 2
+};
+
+enum __declspec(uuid("0ad22edf-6ecc-4570-91c1-3c7c0d9dde1b"))
+ksExtensionSurfaceTypeEnum
+{
+    ksESTUnknown = -1,
+    ksESTSelf = 0,
+    ksESTTangent = 1,
+    ksESTDirection = 2
+};
+
+enum __declspec(uuid("d778a897-f80f-4d38-9d20-0df46a642837"))
+ksExtensionLimitTypeEnum
+{
+    ksETLUnknown = -1,
+    ksETLength = 0,
+    ksETLVertex = 1
+};
+
+enum __declspec(uuid("b22fd17b-476c-4685-94a2-6908988e41bc"))
+ksVector3DParametersTypeEnum
+{
+    ksVector3DUnknown = 0,
+    ksVector3D2Vertex = 1,
+    ksVector3DCSAngle = 2,
+    ksVector3DAxis = 3,
+    ksVector3DCoefficients = 4,
+    ksVector3D2Angles = 5,
+    ksVector3DEdge = 6,
+    ksVector3DPlane = 7,
+    ksVector3DSurface = 8,
+    ksVector3DCurve = 9,
+    ksVector3DScreen = 10
+};
+
+enum __declspec(uuid("95a1df3d-214a-4be0-982c-0fa8e64dd07a"))
+ksBasisVectorTypeEnum
+{
+    ksTangentVector = 0,
+    ksNormalVector = 1,
+    ksBinormalVector = 2
+};
+
+enum __declspec(uuid("307ab9c0-cfd0-4e9c-865a-a6afbeba3116"))
+ksConnectTypeEnum
+{
+    ksCTUnknown = -1,
+    ksCTPosition = 0,
+    ksCTTangent = 1,
+    ksCTNormal = 2,
+    ksCTSmooth = 3
+};
+
+enum __declspec(uuid("f618afbd-5b6e-475f-bbde-bbd9d0015d29"))
+ksArc3DBuildingTypeEnum
+{
+    ksArc3DByPoints = 0,
+    ksArc3DByCentre = 1,
+    ksArc3DByDirrection = 2,
+    ksArc3DByTanCurve = 3
+};
+
+enum __declspec(uuid("4cc57a26-00e7-4dd6-89e9-ee2c85e4ea0b"))
+ksArc3DParameterEnum
+{
+    ksArc3DCenter = 0,
+    ksArc3DPoint1 = 1,
+    ksArc3DPoint2 = 2,
+    ksArc3DPoint3 = 3,
+    ksArc3DAngle1 = 1,
+    ksArc3DAngle2 = 2,
+    ksArc3DRadius = 3
+};
+
+enum __declspec(uuid("3b0a8dd6-8b55-4166-a21b-53a83136aa64"))
+ksRotatedTypeEnum
+{
+    ksRTAngle = 0,
+    ksRTVertex = 1,
+    ksRTSurface = 2
+};
+
+enum __declspec(uuid("9e36236d-818c-4cc0-ba95-5788e30da7e8"))
+ksLinearPatternBuildingTypeEnum
+{
+    ksLPSaveAll = 0,
+    ksLPSaveAlongPerimeter = 1,
+    ksLPSaveAlongAxially = 2,
+    ksLPChessOrderByAxis1 = 3,
+    ksLPChessOrderByAxis2 = 4
+};
+
+enum __declspec(uuid("7e8ba3f0-c6bb-46fc-9014-8ce4e1d8e782"))
+ksPartAccessTypeEnum
+{
+    ksATUncertainty = -1,
+    ksATEditable = 0,
+    ksATReadOnly = 1,
+    ksATDisable = 2
+};
+
+enum __declspec(uuid("40b6ee85-eb19-44b3-a490-8eb2a146f852"))
+ksMeshPointsSurfaceBuildingTypeEnum
+{
+    ksMPByPoints = 0,
+    ksMPByPole = 1
+};
+
+enum __declspec(uuid("d4781300-f0b0-455e-876d-af3743d14cad"))
+ksCloudPointsSurfaceBuildingTypeEnum
+{
+    ksCLByPoints = 0,
+    ksCLByPole = 1,
+    ksCLPolyhedral = 2
+};
+
+enum __declspec(uuid("97707155-ceff-486d-8908-cde033fc7334"))
+ksCloudTypeEnum
+{
+    ksCLAuto = 0,
+    ksCLLocalCS = 1,
+    ksCLScreen = 2
+};
+
+enum __declspec(uuid("86d7ef72-1872-4159-876d-2b7949bf1df6"))
+ksObjectsFilter3DEnum
+{
+    ksFilterAll = 0,
+    ksFilterFaces = 1,
+    ksFilterEdges = 2,
+    ksFilterVertexs = 3,
+    ksFilterCPlanes = 4,
+    ksFilterCAxis = 5,
+    ksFilterParts = 6,
+    ksFilterBodies = 7,
+    ksFilterSurfaces = 8,
+    ksFilterSketches = 9,
+    ksFilterCurves = 10,
+    ksFilterCS = 11,
+    ksFilterControlPoints = 12,
+    ksFilterPoints3D = 13,
+    ksFilterDesignations = 14,
+    ksFilterThread = 15
+};
+
+enum __declspec(uuid("59357d0f-8e3b-4de9-8e5d-1ea560d9afcf"))
+ksCoordLawEnum
+{
+    ksCLawX = 0,
+    ksCLawY = 1,
+    ksCLawZ = 2
+};
+
+enum __declspec(uuid("089100f3-e556-46c5-a3f5-08c0725b5e90"))
+ksLawTypeEnum
+{
+    ksTLawConst = 0,
+    ksTLawLinear = 1,
+    ksTLawCube = 2,
+    ksTLawByExpression = 3
+};
+
+enum __declspec(uuid("968baf5c-fa17-4e10-a564-cd679002e2c2"))
+ksCircularPatternBuildingTypeEnum
+{
+    ksCPSaveAll = 0,
+    ksCPChessOrderByAxis1 = 1,
+    ksCPChessOrderByAxis2 = 2
+};
+
+enum __declspec(uuid("a4540537-f734-4419-aa54-e3e0e8466a74"))
+ksSplineTangentEnum
+{
+    ksSTNone = 0,
+    ksSTByDirection = 1,
+    ksSTCurveU = 2,
+    ksSTCurveV = 3,
+    ksSTSurfaceCurve = 4
+};
+
+enum __declspec(uuid("96e09375-9c26-4c97-8dd6-bfccbd087d8c"))
+ksCurveProjectionTypeEnum
+{
+    ksCPNearest = 0,
+    ksCPNearestByDirection = 1
+};
+
+enum __declspec(uuid("eedcf647-0f60-4df6-8199-744e3bca4c7d"))
+ksContour3DTypeEnum
+{
+    ksCTAuto = 0,
+    ksCTSpace = 1,
+    ksCTSurface = 2,
+    ksCTSketch = 3
+};
+
+enum __declspec(uuid("95163fbb-4c16-4f16-ac01-400269860cbc"))
+ksLineSegment3DTypeEnum
+{
+    ksLSTTwoPoints = 0,
+    ksLSTPointLenghtAngle = 1
+};
+
+enum __declspec(uuid("5ea1de1c-ef3e-411b-a4b3-741b2db8111f"))
+ksConjunctivePointTypeEnum
+{
+    ksCPByObject = 0,
+    ksCPManualDirection = 1
+};
+
+enum __declspec(uuid("81636bdf-8b3c-4af8-a936-62c4fac9598f"))
+ksContour3DBuildingTypeTypeEnum
+{
+    ksCBTUnknown = 0,
+    ksCBTEdges = 1,
+    ksCBTEquidistant = 2
+};
+
+enum __declspec(uuid("033193ff-f75a-4d3e-86f1-f1450280bf48"))
+ksRelationTypeEnum
+{
+    ksRTUnknown = 0,
+    ksRTIndifferent = 1,
+    ksRTStrong = 2
+};
+
+enum __declspec(uuid("8689860f-fd49-4d49-8d66-dfe2d67a5855"))
+ksSpiral3DHeightTypeEnum
+{
+    ksSHTByValue = 0,
+    ksSHTByObject = 1,
+    ksSHTByCurve = 2
+};
+
+enum __declspec(uuid("ae2342ca-8925-4c5f-83fd-545a0f9fffdb"))
+ksSpline3DBuildingTypeEnum
+{
+    ksSBTByStepAndTurnCount = 0,
+    ksSBTByStepAndHeight = 1,
+    ksSBTByTurnCountAndHeight = 2
+};
+
+enum __declspec(uuid("3dfa9658-506f-4483-83ad-ecf730902095"))
+ksSpline3DDiameterTypeEnum
+{
+    ksSDTByValue = 0,
+    ksSDTByObject = 1,
+    ksSDTByGeneratrixTiltAngle = 2
+};
+
+enum __declspec(uuid("8f9e12dd-2ede-47b7-aba2-e7ec1ae3167f"))
+ksPointsArrOnCurveTypeEnum
+{
+    ksPAOCByPointsCount = 0,
+    ksPAOCByStep = 1,
+    ksPAOCByParametricStep = 2
+};
+
+enum __declspec(uuid("cba80496-0df6-44f3-992e-91130b017e95"))
+ksPointsArrOnSurfaceTypeEnum
+{
+    ksPAOSByPointsUVCount = -1,
+    ksPAOSByLinearDeflection = 0,
+    ksPAOSByAngularDeflection = 1,
+    ksPAOSByMeshAroundPoint = 2
+};
+
+enum __declspec(uuid("70612141-0bff-4027-8bfc-539be3059e8b"))
+ksMeshAroundPointTypeEnum
+{
+    ksMALinear = 0,
+    ksMAUVLinear = 1,
+    ksMACircular = 2,
+    ksMAHexagonal = 3
+};
+
+enum __declspec(uuid("3c40ac33-6cac-4888-a248-9b1994cafa32"))
+ksEditColorTypeEnum
+{
+    ksECSelectObject = 0,
+    ksECChooseObject1 = 1,
+    ksECChooseObject2 = 2,
+    ksECChooseObject3 = 3,
+    ksECPassiveParts = 4,
+    ksECFacePhantom = 5,
+    ksECLabelsPhantom = 6,
+    ksECDimensions = 7
+};
+
+enum __declspec(uuid("33fcae36-1b1d-4489-acd0-ee1faa0aed85"))
+ksProjectionOptionEnum
+{
+    ksPOUndefined = -1,
+    ksPODisable = 0,
+    ksPOEnable = 1,
+    ksPOByLayer = 2
+};
+
+enum __declspec(uuid("0f04f158-bc24-41fc-84ba-c105e8c74c44"))
+ksVisibleStateEnum
+{
+    ksVSUndefined = -1,
+    ksVSVisible = 0,
+    ksVSHidden = 1,
+    ksVSByLayer = 2
+};
+
+enum __declspec(uuid("d9132734-cfef-49dd-a412-20176955c302"))
+ksEditableStateEnum
+{
+    ksESUndefined = -1,
+    ksESDisable = 0,
+    ksESEnable = 1,
+    ksESByLayer = 2
+};
+
+enum __declspec(uuid("0be57a41-0674-45fe-8df7-ce317b867f85"))
+ksToleranceRecalcsEnum
+{
+    ksTRUnknown = 0,
+    ksTRLowerLimit = 1,
+    ksTRTopLimit = 2,
+    ksTRMiddle = 3,
+    ksTRCoefficient = 4,
+    ksTRUser = 5
+};
+
+enum __declspec(uuid("6e29802c-9f4b-4f70-a77d-410c629b49e4"))
+ksSpecRoughPlacementEnum
+{
+    ksRPTopLeft = 0,
+    ksRPTopRight = 1,
+    ksRPBottomRight = 2
+};
+
+enum __declspec(uuid("1277a1eb-e280-46e7-8dda-ed201f6e6b87"))
+ksMathCurve3DTypeEnum
+{
+    ks3DCurve = 0,
+    ksLine3D = 1,
+    ksLineSegment3D = 2,
+    ksArc3D = 3,
+    ksSpiral = 4,
+    ksConeSpiral = 5,
+    ksCurveSpiral = 6,
+    ksCrookedSpiral = 7,
+    ksPolyCurve3D = 8,
+    ksPolyline3D = 9,
+    ksNurbs3D = 10,
+    ksBezier3D = 11,
+    ksHermit3D = 12,
+    ksCubicSpline3D = 13,
+    ksPlaneCurve = 14,
+    ksOffsetCurve3D = 15,
+    ksTrimmedCurve3D = 16,
+    ksReparamCurve3D = 17,
+    ksBridgeCurve3D = 18,
+    ksCharacterCurve3D = 19,
+    ksContourOnSurface = 20,
+    ksContourOnPlane = 21,
+    ksSurfaceCurve = 22,
+    ksSilhouetteCurve = 23,
+    ksSurfaceIntersectionCurve = 24,
+    ksBSpline = 25,
+    ksContour3D = 26
+};
+
+enum __declspec(uuid("83a59e79-d0b4-4af7-a9bf-3b291f84e87d"))
+ksMathSurface3DTypeEnum
+{
+    ks3DSurface = 0,
+    ksElementarySurface = 1,
+    ksPlane = 2,
+    ksConeSurface = 3,
+    ksCylinderSurface = 4,
+    ksSphereSurface = 5,
+    ksTorusSurface = 6,
+    ksSweptSurface = 7,
+    ksExtrusionSurface = 8,
+    ksRevolutionSurface = 9,
+    ksEvolutionSurface = 10,
+    ksExactionSurface = 11,
+    ksExpansionSurface = 12,
+    ksElevationSurface = 13,
+    ksSpiralSurface = 14,
+    ksRuledSurface = 15,
+    ksSectorSurface = 16,
+    ksPolySurface = 17,
+    ksHermitSurface = 18,
+    ksSplineSurface = 19,
+    ksGridSurface = 20,
+    ksTriBezierSurface = 21,
+    ksSimplexSurface = 22,
+    ksOffsetSurface = 23,
+    ksDeformedSurface = 24,
+    ksNurbsSurface = 25,
+    ksCornerSurface = 26,
+    ksCoverSurface = 27,
+    ksCoonsPatchSurface = 28,
+    ksMeshSurface = 29,
+    ksLoftedSurface = 30,
+    ksSmoothSurface = 31,
+    ksChamferSurface = 32,
+    ksFilletSurface = 33,
+    ksChannelSurface = 34,
+    ksJoinSurface = 35,
+    ksCurveBoundedSurface = 36,
+    ksBendedUnbendedSurface = 37,
+    ksCylindricBendedSurface = 38,
+    ksCylindricUnbendedSurface = 39,
+    ksConicBendedSurface = 40,
+    ksConicUnbendedSurface = 41,
+    ksExplorationSurface = 42,
+    ksFreeSurface = 200
+};
+
+enum __declspec(uuid("6ddcd794-fb39-4dd4-9947-1521a8749887"))
+ksLengthBuildingTypeEnum
+{
+    ksLBDistance = 0,
+    ksLBToVertex = 2,
+    ksLBToSurface = 3
+};
+
+enum __declspec(uuid("33e9a976-6c70-4f87-b923-e5797eae53e0"))
+ksPatternExemplarsOrientationTypeEnum
+{
+    ksOrientationSave = 0,
+    ksOrientationByNormal = 1,
+    ksOrientationByObject = 2
+};
+
+enum __declspec(uuid("e823b4a9-4225-419b-a63a-c88aa022ed98"))
+ksModelDrawingElementsEnum
+{
+    ksModelDrawingElementNone = 0,
+    ksModelDrawingElementBackground = 1,
+    ksModelDrawingElementCompBodies = 16,
+    ksModelDrawingElementCompObjs = 32,
+    ksModelDrawingElementAuxObjs = 256,
+    ksModelDrawingElementNotifyLibs = 512,
+    ksModelDrawingElementEditor = 4096,
+    ksModelDrawingElementWidgets = 8192,
+    ksModelDrawingElementMeshCutter = 16384,
+    ksModelDrawingElementAll = 65535
+};
+
+enum __declspec(uuid("f6c3b1ea-ef49-4c4b-beaa-01a75196b1e8"))
+ksMateConstraintAlignmentEnum
+{
+    ksMCAlignmentOpposite = -1,
+    ksMCAlignmentClosest = 0,
+    ksMCAlignmentCooriented = 1,
+    ksMCAlignmentUnknown = 2,
+    ksMCAlignment_1 = 3,
+    ksMCAlignment_2 = 4,
+    ksMCAlignment_3 = 5,
+    ksMCReverse_1 = 6,
+    ksMCReverse_2 = 7,
+    ksMCReverse_3 = 8
+};
+
+enum __declspec(uuid("59ccd417-b923-4a8d-8f4d-75ed60f754a6"))
+ksMateFixedTypeEnum
+{
+    ksMFixedUnknown = 0,
+    ksMFixedPart1 = 1,
+    ksMFixedPart2 = 2
+};
+
+enum __declspec(uuid("030c6f06-9275-4da2-af6f-95aaf7a8676e"))
+ksMateTangentTypeEnum
+{
+    ksMTangentUnknown = 0,
+    ksMTangentByPoint = 1,
+    ksMTangentByGeneratrixLine = 2,
+    ksMTangentByCircle = 3
+};
+
+enum __declspec(uuid("32dc0a11-b588-407a-912d-01dc77b0dc01"))
+ksViewProjectionType
+{
+    ksVPNone = -1,
+    ksVPNormalTo = 0,
+    ksVPFront = 1,
+    ksVPRear = 2,
+    ksVPUp = 3,
+    ksVPDown = 4,
+    ksVPLeft = 5,
+    ksVPRight = 6,
+    ksVPIsometric = 7,
+    ksVPDimetric = 8,
+    ksVPUnfold = 9,
+    ksVPUser = 10
+};
+
+enum __declspec(uuid("bfb7d127-4ba0-4a23-89d4-3629b7f3d942"))
+ksDepthTypeEnum
+{
+    ksDTValue = 0,
+    ksDTReachThrough = 1,
+    ksDTObject = 2
+};
+
+enum __declspec(uuid("9b2aa573-715a-4d3b-8ec8-2efbc167e4ca"))
+ksEndFaceTypeEnum
+{
+    ksEFFlat = 0,
+    ksEFConic = 1,
+    ksEFSphere = 2
+};
+
+enum __declspec(uuid("ff3963fb-a490-4fb5-bfba-7458e0aedafc"))
+ksHoleTypeEnum
+{
+    ksHTBase = 0,
+    ksHTCounterbore = 1,
+    ksHTCountersinking = 2,
+    ksHTCounterdrill = 3,
+    ksHTConic = 4,
+    ksHTLfrLibrary = 5
+};
+
+enum __declspec(uuid("43dfda67-3d34-43e1-8fc1-334f01d9a1a1"))
+ksCountersinkTypeEnum
+{
+    ksCTDiameterAngle = 0,
+    ksCTDepthAngle = 1,
+    ksCTDiameterDepth = 2
+};
+
+enum __declspec(uuid("0ae27bcb-2439-40bf-8e50-1d1128a1fcf1"))
+ksConicTypeEnum
+{
+    ksCNDiameter = 0,
+    ksCNAngle = 1
+};
+
+enum __declspec(uuid("d2b67daa-51f8-42a3-ac20-d2ee3ca0eb3e"))
+ksViewProjectionScheme
+{
+    ksVPSUnknown = -1,
+    ksVPSUser = 0,
+    ksVPSZAxonometric = 1,
+    ksVPSYAxonometric = 2,
+    ksVPSXAxonometric = 3,
+    ksVPSZ90AxonometricISO = 4,
+    ksVPSY90AxonometricISO = 5,
+    ksVPSX90AxonometricISO = 6
+};
+
+enum __declspec(uuid("dc2e8f20-de0a-4ff2-8bcd-ffec78128093"))
+ksMateMotionTypeEnum
+{
+    ksMMotionUnknown = 0,
+    ksMMotionLinear = 1,
+    ksMMotionRotation = 2
+};
+
+enum __declspec(uuid("ec5196df-2f6a-4dc5-a91a-9356bc19ff9c"))
+ksD3ConverterOptionsEnum
+{
+    ksD3COBodyes = 0,
+    ksD3COSurfaces = 2,
+    ksD3COCurves = 4,
+    ksD3COSketches = 6,
+    ksD3COInvisibleObjects = 8,
+    ksD3COPoints = 10,
+    ksD3CODocumentProperties = 12,
+    ksD3COTechnicalDemand = 14,
+    ksD3CODimensions = 16,
+    ksD3COAttributes = 18,
+    ksD3CBRep = 20,
+    ksD3CPolygonal = 22,
+    ksD3CPolygonalLOD0 = 24,
+    ksD3CAssociated = 26,
+    ksD3COStyle = 28,
+    ksD3CODensity = 30,
+    ksD3COValidationProperties = 32
+};
+
+enum __declspec(uuid("b6f13ecf-65bb-4885-a2b8-14f405beec4a"))
+ksStepTypeEnum
+{
+    ksSpaceStep = 1,
+    ksDeviationStep = 2,
+    ksMetricStep = 4,
+    ksParamStep = 8,
+    ksCollisionStep = 16,
+    ksMipStep = 32
+};
+
+enum __declspec(uuid("d7290676-1166-4cc2-a38a-7962b859a4d5"))
+ksTextExportFormEnum
+{
+    ksTEFTextOnly = 0,
+    ksTEFGeometryOnly = 1
+};
+
+enum __declspec(uuid("81e091c5-cc72-4c3f-ba3a-bd0b3697bd3f"))
+ksFeatureStateEnum
+{
+    ksFSNone = 0,
+    ksFSLocked = 1,
+    ksFSRebuild = 2,
+    ksFSInside3dMacro = 4,
+    ksFSLCSDependent = 8,
+    ksFSComprisedOfParts = 16,
+    ksFSCurrent = 32,
+    ksFSReadOnlyAccessM3d = 64,
+    ksFSDetailedFold = 128,
+    ksFSSketchUndefined = 256,
+    ksFSSketchDefined = 512,
+    ksFSSketchRedefined = 1024,
+    ksFSEditRestricted = 2048,
+    ksFSEditImpossible = 4096,
+    ksFSFixedComponent = 8192,
+    ksFSPutInRecalcState = 16384,
+    ksFSReadOnlyAccessA3d = 32768,
+    ksFSUncuttable = 65536,
+    ksFSUpdateNeeded = 1048576,
+    ksFSBrokenLink = 2097152
+};
+
+enum __declspec(uuid("31f69a56-1ab8-48d0-9c0b-b53e812cbca9"))
+ksChamferBuildingTypeEnum
+{
+    ksChamferSideAngle = 0,
+    ksChamferTwoSides = 1
+};
+
+enum __declspec(uuid("0dc92500-2970-41fd-880a-9177c386ff10"))
+ksFilletBuildingTypeEnum
+{
+    ksFilletCircleArc = 0,
+    ksFilletEllipseArc = 1,
+    ksFilletCoefficient = 2,
+    ksFilletHord = 3
+};
+
+enum __declspec(uuid("bb305274-2fde-463e-b91f-6ef616fe1651"))
+ksFilletOffsetModeEnum
+{
+    ksFilletOffsetByPersent = 0,
+    ksFilletOffsetByLength = 1,
+    ksFilletOffsetByAngle = 2
+};
+
+enum __declspec(uuid("f60e2fb3-97ea-4fd7-8da4-2e93b5236d68"))
+ksRibSideEnum
+{
+    ksRibSideLeft = 0,
+    ksRibSideRight = 1,
+    ksRibSideUp = 2,
+    ksRibSideDown = 3
+};
+
+enum __declspec(uuid("c39f4719-365e-4b1e-b45d-a13fd26183ea"))
+ksOperationResultEnum
+{
+    ksOperationUnion = 0,
+    ksOperationNewBody = 1,
+    ksOperationCut = 2,
+    ksOperationIntersect = 3
+};
+
+enum __declspec(uuid("9fc95047-d47f-4579-b41c-17c0bcf5f813"))
+ksLoftBuildingType
+{
+    ksLoftAuto = 0,
+    ksLoftByNormal = 1,
+    ksLoftByObject = 2,
+    ksLoftCupola = 3
+};
+
+enum __declspec(uuid("d0267dac-c757-4641-a101-1210cf0681d6"))
+ksEvolutionShiftSketchTypeEnum
+{
+    ksEvShiftParallel = 0,
+    ksEvShiftKeepAngle = 1,
+    ksEvShiftOrtogonal = 2
+};
+
+enum __declspec(uuid("772ac2d4-b0cf-4e63-8774-615a3a3bdf7a"))
+ksSketchBendBuildingTypeEnum
+{
+    ksSBFromSketch = 1,
+    ksSBSomeEdges = 2
+};
+
+enum __declspec(uuid("ee4aef43-16ff-4034-ab39-f2ff5c2aa5d8"))
+ksClosingTypeEnum
+{
+    ksClosingAngles = 0,
+    ksClosingBegin = 1,
+    ksClosingEnd = 2
+};
+
+enum __declspec(uuid("6d4b4057-3935-4362-928e-19a4550dcf02"))
+ksClosingCorneringEnum
+{
+    ksCorneringNone = 0,
+    ksCorneringJointOnBorder = 1,
+    ksCorneringJointOnChord = 2,
+    ksCorneringCircled = 3
+};
+
+enum __declspec(uuid("677ea6f7-190f-4707-8217-e035ff4c4a96"))
+ksClosingHolePlacementEnum
+{
+    ksCorneringHPBend = 0,
+    ksCorneringHPAngle = 1,
+    ksCorneringHPPoint = 2
+};
+
+enum __declspec(uuid("28a5a5be-fdba-4b86-8d19-0077de3cf0fc"))
+ksClosingClosedTypeEnum
+{
+    ksClosingCJoint = 0,
+    ksClosingCOver = 1,
+    ksClosingCTightClosure = 2
+};
+
+enum __declspec(uuid("823eaaa2-e7f5-417f-be69-12dde9141b87"))
+ksUndercutDistanceTypeEnum
+{
+    ksUCDictanceOut = 0,
+    ksUCDictanceIn = 1,
+    ksUCDictanceAll = 2
+};
+
+enum __declspec(uuid("033435e2-87fa-4483-ae4a-7bd977b1e3e7"))
+ksCutBuildingTypeEnum
+{
+    ksCutByContour = 0,
+    ksCutByPlane = 1
+};
+
+enum __declspec(uuid("b590b16e-de83-43f6-abe1-ede4de0d61a9"))
+ksShoulderTypeEnum
+{
+    ksShoulderClosed = 0,
+    ksShoulderOpened = 1,
+    ksShoulderChopped = 2
+};
+
+enum __declspec(uuid("9789bc5e-e06c-4032-82b6-939013559214"))
+ksShoulderCutingTypeEnum
+{
+    ksShoulderCutingCircle = 0,
+    ksShoulderCutingU = 1,
+    ksShoulderCutingV = 2
+};
+
+enum __declspec(uuid("d013e417-0f60-4b46-85c6-83673cfb838f"))
+ksShoulderBuildingTypeEnum
+{
+    ksShoulderUnknown = 0,
+    ksShoulderWidth1 = 1,
+    ksShoulderHeight = 2,
+    ksShoulderAngle = 4,
+    ksShoulderWidth2 = 8,
+    ksShoulderRadius2 = 16,
+    ksShoulderWidth1Off = -1,
+    ksShoulderHeightOff = -2,
+    ksShoulderAngleOff = -4,
+    ksShoulderWidth2Off = -8,
+    ksShoulderRadius2Off = -16,
+    ksShoulderCircleByHeightWidth1 = 3,
+    ksShoulderCircleByHeightRadius2 = 18,
+    ksShoulderCircleByRadiusWidth1 = 17,
+    ksShoulderUByHeighAngleWidth1 = 7,
+    ksShoulderUByHeighAngleWidthRadius2 = 23,
+    ksShoulderUByHeighWidth1Width2 = 11,
+    ksShoulderUByHeighWidth1Width2Radius2 = 27,
+    ksShoulderUByAngleWidth1Width2 = 13,
+    ksShoulderUByAngleWidth1Width2Radius2 = 29,
+    ksShoulderUByHeighAngleWidth2 = 14,
+    ksShoulderUByHeighAngleWidth2Radius2 = 30,
+    ksShoulderVByHeighAngleWidth1 = 7,
+    ksShoulderVByHeighAngleRadius2 = 22,
+    ksShoulderVByRadius2AngleWidth1 = 21,
+    ksShoulderVByHeighRadius2Width1 = 19
+};
+
+enum __declspec(uuid("412d4bcb-e96d-4c2c-a359-50b082454bf0"))
+ksJalousieBuildingTypeEnum
+{
+    ksJalousieExtract = 0,
+    ksJalousieTrim = 1
+};
+
+enum __declspec(uuid("88997b3a-e08d-41b4-a0d0-b6d7abf05055"))
+ksJalousieFormEndEnum
+{
+    ksJalousieTangent = 0,
+    ksJalousieNormal = 1
+};
+
+enum __declspec(uuid("a3f48f08-f4f8-4fba-b3ae-60d55b5e8b2d"))
+ksJalousieHeightTypeEnum
+{
+    ksJalousieAllHeight = 0,
+    ksJalousieUpToFaceHeight = 1,
+    ksJalousieSlotHeight = 2
+};
+
+enum __declspec(uuid("2ad08cba-199a-422d-abc4-53833523fbaf"))
+ksPressFormingHeightTypeEnum
+{
+    ksPressFormingAllHeight = 0,
+    ksPressFormingOutHeight = 1,
+    ksPressFormingInHeight = 2
+};
+
+enum __declspec(uuid("d22f23ac-096f-43a4-9413-9ab18afc72ab"))
+ksSplineTransitionTypeEnum
+{
+    ksSTTNone = 0,
+    ksSTTByParam = 1,
+    ksSTTConstraint = 2
+};
+
+enum __declspec(uuid("b0f7300a-62a2-4267-9c09-e2b6cbef7005"))
+ksTransitionVectorIndexEnum
+{
+    ksTVTangent = 0,
+    ksTVNormal = 1,
+    ksTVBNormal = 2
+};
+
+enum __declspec(uuid("f9734e68-162f-4720-97b1-fbc9d1064198"))
+ksSHRibBuildingTypeEnum
+{
+    ksSHRibBuildingHeightAngle = 0,
+    ksSHRibBuildingTwoHeights = 1,
+    ksSHRibBuildingDepthAngle = 2
+};
+
+enum __declspec(uuid("ca1c3c6f-638f-4260-afca-c31117c34f0f"))
+ksSHRibCutingTypeEnum
+{
+    ksSHRibCuttingV = 0,
+    ksSHRibCuttingU = 1
+};
+
+enum __declspec(uuid("26a7db16-3120-4b95-8caf-87650ab6d857"))
+ksOffsetGapType
+{
+    ksOGParametrU = 0,
+    ksOGLength = 1,
+    ksOGDraftPosition = 2
+};
+
+enum __declspec(uuid("1aa6fa52-76ec-4519-a8da-7e687d56425a"))
+ksRuledBorderEnum
+{
+    ksRuledBodder1 = 0,
+    ksRuledBodder2 = 1
+};
+
+enum __declspec(uuid("4e98a0d5-817a-49ab-b6f5-c80ac85f0bc3"))
+ksRuledJointEnum
+{
+    ksRuledJoint1 = 0,
+    ksRuledJoint2 = 1
+};
+
+enum __declspec(uuid("81478ba5-5ae3-455b-a959-c276d3b05843"))
+ksSegmentationMethodEnum
+{
+    ksSmQuantity = 0,
+    ksSmLength = 1,
+    ksSmAngle = 2,
+    ksSmHeight = 3
+};
+
+enum __declspec(uuid("3e611d7f-b138-4da2-822b-a5afa79e55d2"))
+ksZoneTypeEnum
+{
+    ksZoneFree = 0,
+    ksZoneByPoints = 1,
+    ksZoneByObjects = 2
+};
+
+enum __declspec(uuid("4bd167b9-3a15-4d4b-9848-fa1eb388dede"))
+ksZoneDivisionTypeEnum
+{
+    ksZoneDivisionRegular = 0,
+    ksZoneDivisionByPlanes = 1
+};
+
+enum __declspec(uuid("82264a76-1868-4b95-8cfe-7dad0c325eb6"))
+ksGabaritBuildingTypeEnum
+{
+    ksGabaritByBorderPoints = 0,
+    ksGabaritByCenterAndBorder = 1
+};
+
+enum __declspec(uuid("d5b9827d-63dd-4f38-8afe-7ad3a846f16a"))
+ksDynamicCrossSectionStepBuildingTypeEnum
+{
+    ksDCSTUnknown = -1,
+    ksDCSTByFreePlane = 0,
+    ksDCSTByOffsetPlane = 1,
+    ksDCSTByRotatedPlane = 2,
+    ksDCSTByZone = 3,
+    ksDCSTByBorderPoints = 4
+};
+
+enum __declspec(uuid("c0ff27ce-d814-4f09-aa47-868229431f99"))
+ksCrossSectionPlaneBuildingTypeEnum
+{
+    ksCrossSectionPlaneByModelPlane = 0,
+    ksCrossSectionPlaneByOtherStep = 1
+};
+
+enum __declspec(uuid("082949cb-4400-4f3b-91c8-fd6f3d3eda5f"))
+ksArchMeasureEnum
+{
+    ksArchMeasureByCoefficient = 0,
+    ksArchMeasureByLength = 1
+};
+
+enum __declspec(uuid("307fe013-1a93-48c7-b883-5b223091bd7e"))
+ksManipulatorTypeEnum
+{
+    ksPlacement3DManipulator = 1,
+    ksEditDoubleManipulator = 2
+};
+
+enum __declspec(uuid("7caf9ea8-7188-431b-8011-4780c2532068"))
+ksManipulatorPrimitiveEnum
+{
+    ksMPNone = 0,
+    ksMPAxisX = 1,
+    ksMPAxisY = 2,
+    ksMPAxisZ = 3,
+    ksMPPlaceXOY = 4,
+    ksMPPlaceXOZ = 5,
+    ksMPPlaceYOZ = 6,
+    ksMPConturXY = 7,
+    ksMPConturXZ = 8,
+    ksMPConturYZ = 9,
+    ksMPTextX = 10,
+    ksMPTextY = 11,
+    ksMPTextZ = 12,
+    ksMPOriginal = 13
+};
+
+enum __declspec(uuid("24baa9a3-a463-40f0-876c-c6ba7b34a1e2"))
+ksManipulatorModeEnum
+{
+    ksManipulatorModeDefault = 1,
+    ksManipulatorModeNotHandleEditor = 2
+};
+
+enum __declspec(uuid("fe41d7b0-8fb2-44e3-b494-2d5a550377bf"))
+ksSelectionBandMode
+{
+    ksSelectionNoBand = 0,
+    ksSelectionWhenNoNearestObject = 2
+};
+
+enum __declspec(uuid("9552dff3-0f6d-4015-ba59-a6eb054a9998"))
+ksProcessObjectsFilter3DEnum
+{
+    ksProcessFilterBodies = 0,
+    ksProcessFilterSurfaces = 1,
+    ksProcessFilterObjects = 2,
+    ksProcessFilterOperations = 3,
+    ksProcessFilterParts = 4,
+    ksProcessFilterExcludeExternalObjects = 1000
+};
+
+enum __declspec(uuid("ad3c90cf-0ff3-473a-b379-3b2090609c6c"))
+ksCopyGeometryBuildingTypeEnum
+{
+    ksCGBTWithoutGrouping = 0,
+    ksCGBTBodyFaceGrouping = 1
+};
+
+enum __declspec(uuid("609fe1d8-b246-4c57-8c41-3641d912d0d1"))
+ksMultiThicknessGroupTypeEnum
+{
+    ksArbitraryThicknesses = 0,
+    ksSetsThicknesses = 1
+};
+
+enum __declspec(uuid("8983e2cd-cf41-4ca3-b56e-73973c7cdea6"))
+ksTextureTypeEnum
+{
+    ksBaseProperties = -1,
+    ksTexture = 0,
+    ksRelief = 1,
+    ksCutting = 2
+};
+
+enum __declspec(uuid("fcc908ca-0cdd-456e-9956-698ecf678ae5"))
+ksSheetMetalPunchBuildingTypeEnum
+{
+    ksSheetMetalPunch = 0,
+    ksSheetMetalMatrix = 1
+};
+
+enum __declspec(uuid("b1c9fd06-0a44-4471-8054-5ce526427464"))
+ksSheetMetalPunchThicknessTypeEnum
+{
+    ksSheetMetalPunchHeightByBody = 0,
+    ksSheetMetalPunchHeightByValue = 1
+};
+
+enum __declspec(uuid("e76aa4e4-9d8b-4753-9380-95d873a517df"))
+ksScalingTypeEnum
+{
+    ksScalingByCoefficient = 0,
+    ksScalingByAxis = 1
+};
+
+enum __declspec(uuid("6d143099-35b5-46d9-9bb4-e8da0442323d"))
+ksEvolutionVersionEnum
+{
+    ksEvolutionVersion1 = 1,
+    ksEvolutionVersion2 = 2
+};
+
+enum __declspec(uuid("4eec274e-d38e-4ea3-96ad-88c9eb9eb728"))
+ksTechnicalDemand3DPlacementEnum
+{
+    ksTdPTopRight = 0,
+    ksTdPBottomRight = 1
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_Kompas6Constants3D =
+    {0x2caf168c,0x7961,0x4b90,{0x9d,0xa2,0x70,0x14,0x19,0xbe,0xef,0xe3}};
+
+#pragma pack(pop)

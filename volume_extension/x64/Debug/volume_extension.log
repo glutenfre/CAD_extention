@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Не удалось разрешить данную ссылку. Не удалось обнаружить сборку "Microsoft.Cpp". Убедитесь, что сборка существует на диске. Если данная ссылка требуется в коде, это может вызвать ошибки компиляции.
+cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  ApplicationEvent.cpp
+  Создание кода...
+  Компиляция...
+  volume_extension.cpp
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\volume_extension.cpp(105,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\volume_extension.cpp(106,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\volume_extension.cpp(107,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\volume_extension.cpp(262,52): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  utilits.cpp
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\utilits.cpp(134,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\utilits.cpp(266,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\utilits.cpp(267,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\utilits.cpp(268,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Ivan\source\repos\volume_extension\volume_extension\utilits.cpp(283,17): warning C4101: dummy: неиспользованная локальная переменная
+  DocumentFrameEvent.cpp
+  Создание кода...
+.\volume_extension.def : warning LNK4222: экспортированному символу "DllRegisterServer" не следует присваивать порядковое число
+.\volume_extension.def : warning LNK4222: экспортированному символу "DllUnregisterServer" не следует присваивать порядковое число
+     Создается библиотека C:\Users\Ivan\source\repos\volume_extension\volume_extension.lib и объект C:\Users\Ivan\source\repos\volume_extension\volume_extension.exp
+  volume_extension.vcxproj -> C:\Users\Ivan\source\repos\volume_extension\volume_extension.rtw
